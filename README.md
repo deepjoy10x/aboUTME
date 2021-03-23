@@ -20,3 +20,10 @@ After that, you can create a new Device using the Device Handler you just
 created.
 On your SmartThings app, choose "Add a Thing" and the device you just created
 from developer IDE will appear. Confirm it.
+
+There are 3 required preferences you must set before you can really use the
+device. You can set them up on either the app or IDE:
+
+### Blynk Auth Token
+
+This is the auth token Blynk sent you during setup.
