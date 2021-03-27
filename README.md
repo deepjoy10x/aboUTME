@@ -27,3 +27,8 @@ device. You can set them up on either the app or IDE:
 ### Blynk Auth Token
 
 This is the auth token Blynk sent you during setup.
+
+### Blynk URL prefix
+
+As at the time of writing blynk doesn't provide a proper HTTPS API so you have
+to use the HTTP version of `http://blynk-cloud.com`.
