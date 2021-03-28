@@ -32,3 +32,12 @@ This is the auth token Blynk sent you during setup.
 
 As at the time of writing blynk doesn't provide a proper HTTPS API so you have
 to use the HTTP version of `http://blynk-cloud.com`.
+
+If you would like to use HTTPS for better security,
+you'll need a special HTTPS proxy.
+Refer to my [blynk-proxy](https://github.com/fishy/blynk-proxy) project for more
+details.
+You could setup your own proxy using blynk-proxy,
+or if after understanding the
+[risks](https://github.com/fishy/blynk-proxy/blob/master/README.md#should-i-use-your-app-engine-app)
+you still don't mind, you could use `https://blynk-proxy.appspot.com`.
