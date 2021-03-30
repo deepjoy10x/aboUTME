@@ -52,3 +52,12 @@ If you don't have a Contact Sensor setup with your OpenGarage,
 you would need a more frequent refresh rate to keep the state up-to-date.
 
 ## Device Handler (Direct)
+
+[open-garage-direct.groovy](open-garage-direct.groovy)
+
+*NOTE: I highly recommend upgrading firmware to version 1.10 or up to use this
+device handler.*
+
+First you need to setup your [OpenGarage](https://opengarage.io) normally,
+the [Blynk](https://blynk.cc) integration steps are optional (not needed for
+this integration).
