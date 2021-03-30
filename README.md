@@ -71,3 +71,14 @@ This usually can be done in two ways:
 	 so it's not recommended.
 
 2. In your home, run a 24/7 machine with a reverse proxy (e.g.
+   [nginx](https://www.nginx.com/)). You can configure HTTPS and/or HTTP
+   authentication this way, but you need a 24/7 machine to make it work.
+
+After you exposed your OpenGarage web UI to the internet, login to your
+[SmartThings developer account](https://graph.api.smartthings.com/),
+create a new Device Handler, and import the code.
+
+After that, you can create a new Device using the Device Handler you just
+created.
+On your SmartThings app, choose "Add a Thing" and the device you just created
+from developer IDE will appear. Confirm it.
