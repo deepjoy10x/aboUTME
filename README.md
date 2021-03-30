@@ -82,3 +82,19 @@ After that, you can create a new Device using the Device Handler you just
 created.
 On your SmartThings app, choose "Add a Thing" and the device you just created
 from developer IDE will appear. Confirm it.
+
+There are few required preferences you must set before you can really use the
+device. You can set them up on either the app or IDE:
+
+### Device key
+
+This is the password you used on OpenGarage web UI to do actions and change
+options. The factory default is `opendoor`.
+
+### HTTP(s) prefix
+
+This is the way you exposed the web UI to the internet.
+If you just mapped the port on your router,
+this should be something like `http://yourip:port`.
+If you setup a reverse proxy with HTTPS,
+this should be something like `https://yourdomain`.
