@@ -41,3 +41,14 @@ You could setup your own proxy using blynk-proxy,
 or if after understanding the
 [risks](https://github.com/fishy/blynk-proxy/blob/master/README.md#should-i-use-your-app-engine-app)
 you still don't mind, you could use `https://blynk-proxy.appspot.com`.
+
+### State Refresh Rate
+
+We couldn't push the garage door state to SmartThings right now so the update of
+the state rely on refresh requests initiated from SmartThings to Blynk server.
+This preference controls how frequent we send those refresh requests.
+
+If you don't have a Contact Sensor setup with your OpenGarage,
+you would need a more frequent refresh rate to keep the state up-to-date.
+
+## Device Handler (Direct)
