@@ -98,3 +98,13 @@ If you just mapped the port on your router,
 this should be something like `http://yourip:port`.
 If you setup a reverse proxy with HTTPS,
 this should be something like `https://yourdomain`.
+
+### HTTP Authentication header
+
+This is only needed if you setup a reverse proxy and setup HTTP authentication.
+If you just use simple username/password authentication,
+it should be something like `Basic dXNlcm5hbWU6cGFzc3dvcmQ=`,
+while the part after `Basic ` is the base64 encoded username and password.
+You can get that in Python easily:
+
+```python
