@@ -61,3 +61,13 @@ device handler.*
 First you need to setup your [OpenGarage](https://opengarage.io) normally,
 the [Blynk](https://blynk.cc) integration steps are optional (not needed for
 this integration).
+
+Then you need to make your local OpenGarage web UI available to the internet.
+This usually can be done in two ways:
+
+1. On your router, map your OpenGarage's IP and 80 port to an external port.
+   Please note that this way the communication is not encrypted, your garage
+	 controller web UI is exposed to the internet without protection,
+	 so it's not recommended.
+
+2. In your home, run a 24/7 machine with a reverse proxy (e.g.
