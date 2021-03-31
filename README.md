@@ -117,3 +117,10 @@ If you setup other HTTP authentication methods,
 e.g. Digest, refer to RFC to see how to get the `Authentication` HTTP header.
 
 ### State Refresh Rate
+
+We couldn't push the garage door state to SmartThings right now so the update of
+the state rely on refresh requests initiated from SmartThings to Blynk server.
+This preference controls how frequent we send those refresh requests.
+
+If you don't have a Contact Sensor setup with your OpenGarage,
+you would need a more frequent refresh rate to keep the state up-to-date.
