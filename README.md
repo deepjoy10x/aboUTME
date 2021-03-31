@@ -108,3 +108,12 @@ while the part after `Basic ` is the base64 encoded username and password.
 You can get that in Python easily:
 
 ```python
+>>> from base64 import b64encode
+>>> b64encode('username:password')
+'dXNlcm5hbWU6cGFzc3dvcmQ='
+```
+
+If you setup other HTTP authentication methods,
+e.g. Digest, refer to RFC to see how to get the `Authentication` HTTP header.
+
+### State Refresh Rate
