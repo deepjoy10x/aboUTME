@@ -124,3 +124,7 @@ This preference controls how frequent we send those refresh requests.
 
 If you don't have a Contact Sensor setup with your OpenGarage,
 you would need a more frequent refresh rate to keep the state up-to-date.
+
+## Garage Door Helper SmartApp
+
+[garage-door-helper.groovy](garage-door-helper.groovy)
