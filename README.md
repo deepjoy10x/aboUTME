@@ -128,3 +128,9 @@ you would need a more frequent refresh rate to keep the state up-to-date.
 ## Garage Door Helper SmartApp
 
 [garage-door-helper.groovy](garage-door-helper.groovy)
+
+This is a SmartApp to help you get more up-to-date state of your OpenGarage
+(or any other unofficially supported garage device that doesn't needs pull)
+more efficiently.
+
+First you'll need a separated Contact Sensor installed on your garage door.
