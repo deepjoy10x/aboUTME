@@ -150,3 +150,11 @@ You can also get push/sms notifications when your garage door device handler has
 HTTP request failures.
 
 ## Presence and Garage Door SmartApp
+
+[presence-and-garage-door.groovy](presence-and-garage-door.groovy)
+
+This is a SmartApp to automate your garage door with a presence sensor
+(probably in your car).
+The basic idea is that when the presence sensor's state changed to not present,
+that means your car is leaving so it closes the garage door;
+When the presence sensor's state changed to present,
