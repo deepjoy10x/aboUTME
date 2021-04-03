@@ -134,3 +134,12 @@ This is a SmartApp to help you get more up-to-date state of your OpenGarage
 more efficiently.
 
 First you'll need a separated Contact Sensor installed on your garage door.
+
+Then, login to your
+[SmartThings developer account](https://graph.api.smartthings.com/),
+create a new SmartApp, and import the code.
+
+After that, on your SmartThings app you can add the SmartApp,
+select your OpenGarage as the garage door and the contact sensor.
+
+The idea behind this SmartApp is that whenever the contact sensor's state
