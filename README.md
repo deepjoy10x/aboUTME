@@ -158,3 +158,16 @@ This is a SmartApp to automate your garage door with a presence sensor
 The basic idea is that when the presence sensor's state changed to not present,
 that means your car is leaving so it closes the garage door;
 When the presence sensor's state changed to present,
+that means your car is arriving so it opens the garage door.
+
+One tricky thing is that presence sensor may report false state changes.
+When the presence sensor loses connection to the hub,
+the state will change to not present and the SmartApp will try to close your
+garage door.
+This is not a big deal,
+but when it restore the connection to the hub,
+the state will change to present and the SmartApp will try to open your garage
+door, and that's a thing to avoid.
+
+To resolve this false report problem,
+there's an option called "Real close threshold" in this SmartApp.
