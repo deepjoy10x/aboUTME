@@ -178,3 +178,5 @@ and if it's already closed, check what's the time it actually closed.
 If the actual close time is more than the threshold,
 the SmartApp assumes that this is a false report,
 and won't really open the garage door when its state next change to present.
+
+Refer to the above section about how to install this SmartApp.
