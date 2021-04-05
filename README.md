@@ -171,3 +171,10 @@ door, and that's a thing to avoid.
 
 To resolve this false report problem,
 there's an option called "Real close threshold" in this SmartApp.
+When set, for example to 300 seconds (5 minutes),
+when your presence sensor's state changed to not present,
+the SmartApp will check the door's current state,
+and if it's already closed, check what's the time it actually closed.
+If the actual close time is more than the threshold,
+the SmartApp assumes that this is a false report,
+and won't really open the garage door when its state next change to present.
