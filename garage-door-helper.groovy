@@ -14,3 +14,10 @@
  *  for the specific language governing permissions and limitations under the License.
  *
  */
+
+definition(
+	name: "Garage Door Helper",
+	namespace: "fishy",
+	author: "Yuxuan Wang",
+	description: "Use contact sensor to better refresh garage door state",
+	category: "Safety & Security",
