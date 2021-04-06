@@ -33,3 +33,9 @@ preferences {
 			"door",
 			"capability.refresh",
 			title: "Pick a garage door",
+			multiple: false,
+		)
+	}
+	section("Contact Sensor") {
+		input(
+			"contact",
