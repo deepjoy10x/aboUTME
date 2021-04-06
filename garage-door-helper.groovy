@@ -21,3 +21,15 @@ definition(
 	author: "Yuxuan Wang",
 	description: "Use contact sensor to better refresh garage door state",
 	category: "Safety & Security",
+	iconUrl: "https://s3.amazonaws.com/smartapp-icons/Meta/garage_contact.png",
+	iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Meta/garage_contact@2x.png",
+	iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Meta/garage_contact@2x.png",
+)
+
+
+preferences {
+	section("Garage Door") {
+		input(
+			"door",
+			"capability.refresh",
+			title: "Pick a garage door",
