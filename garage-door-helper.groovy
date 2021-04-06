@@ -39,3 +39,13 @@ preferences {
 	section("Contact Sensor") {
 		input(
 			"contact",
+			"capability.contactSensor",
+			title: "Pick a contact sensor",
+			multiple: false,
+			required: false,
+		)
+		input(
+			"refresh_rate",
+			"number",
+			title: "refresh for every N seconds (default 5)",
+			required: false,
