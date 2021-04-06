@@ -67,3 +67,10 @@ preferences {
 			"phone",
 			"text",
 			title: "Phone number to send SMS notification",
+			required: false,
+		)
+	}
+}
+
+
+def installed() {
