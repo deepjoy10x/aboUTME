@@ -49,3 +49,13 @@ preferences {
 			"number",
 			title: "refresh for every N seconds (default 5)",
 			required: false,
+		)
+		input(
+			"max_refresh",
+			"number",
+			title: "stop refreshing after N minutes (default 2)",
+			required: false,
+		)
+	}
+	section("Notification") {
+		input(
