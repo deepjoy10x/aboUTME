@@ -59,3 +59,11 @@ preferences {
 	}
 	section("Notification") {
 		input(
+			"push_notif",
+			"bool",
+			title: "Send push notification when Garage Door device handler failed",
+		)
+		input(
+			"phone",
+			"text",
+			title: "Phone number to send SMS notification",
