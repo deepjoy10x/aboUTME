@@ -84,3 +84,15 @@ def updated() {
 
 	unsubscribe()
 	initialize()
+}
+
+def initialize() {
+	if (contact) {
+		subscribe(contact, "contact", contactHandler)
+	}
+	if (push_notif || phone) {
+		subscribe(door, "lastHttpStatus", httpHandler)
+	}
+}
+
+def getRefreshRate() {
