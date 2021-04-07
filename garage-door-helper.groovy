@@ -96,3 +96,10 @@ def initialize() {
 }
 
 def getRefreshRate() {
+	if (refresh_rate) {
+		return refresh_rate
+	}
+	return 5
+}
+
+def getMaxRefresh() {
