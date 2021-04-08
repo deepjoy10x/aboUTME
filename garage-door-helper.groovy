@@ -145,3 +145,8 @@ def contactHandler(evt) {
 }
 
 def httpHandler(evt) {
+	log.debug "httpHandler: $evt.value: $evt, $settings"
+	if (evt.isStateChange() && evt.value == "failed") {
+		def msg = "${door.displayName} http request failed, please check your settings."
+		if (push_notif) {
+			sendPush(msg)
