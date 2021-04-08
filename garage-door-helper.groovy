@@ -116,3 +116,12 @@ def forceRefreshGarageState(data) {
 		door.refresh()
 	} catch (Exception e) {
 		// Sometimes SmartThings platform will throw
+		// groovy.lang.MissingMethodException: No signature of method: ...
+		// here, but the door actually got the refresh command.
+		// If we don't catch the exception here we will stop after the first
+		// refresh, which is usually not enough.
+		// As a result, log and ignore.
+		log.debug "refresh failed with: $e"
+	}
+	if (timestamp >= data.stopAt) {
+		log.debug "stopping refreshing..."
