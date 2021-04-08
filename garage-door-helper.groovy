@@ -125,3 +125,5 @@ def forceRefreshGarageState(data) {
 	}
 	if (timestamp >= data.stopAt) {
 		log.debug "stopping refreshing..."
+		unschedule(forceRefreshGarageState)
+	} else {
