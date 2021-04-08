@@ -140,3 +140,8 @@ def contactHandler(evt) {
 	if (evt.isStateChange()) {
 		def timestamp = now() + 60 * 1000 * getMaxRefresh()
 		def data = [stopAt: timestamp]
+		forceRefreshGarageState(data)
+	}
+}
+
+def httpHandler(evt) {
