@@ -103,3 +103,16 @@ def getRefreshRate() {
 }
 
 def getMaxRefresh() {
+	if (max_refresh) {
+		return max_refresh
+	}
+	return 2
+}
+
+def forceRefreshGarageState(data) {
+	def timestamp = now()
+	log.debug "forceRefreshGarageState: ${new Date()}, timestamp: $timestamp, stops at ${data.stopAt}"
+	try {
+		door.refresh()
+	} catch (Exception e) {
+		// Sometimes SmartThings platform will throw
