@@ -127,3 +127,16 @@ def forceRefreshGarageState(data) {
 		log.debug "stopping refreshing..."
 		unschedule(forceRefreshGarageState)
 	} else {
+		def options = [
+			overwrite: true,
+			data: data,
+		]
+		runIn(getRefreshRate(), forceRefreshGarageState, options)
+	}
+}
+
+def contactHandler(evt) {
+	log.debug "contactHandler: $evt.value: $evt, $settings"
+	if (evt.isStateChange()) {
+		def timestamp = now() + 60 * 1000 * getMaxRefresh()
+		def data = [stopAt: timestamp]
