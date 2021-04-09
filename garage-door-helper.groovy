@@ -150,3 +150,9 @@ def httpHandler(evt) {
 		def msg = "${door.displayName} http request failed, please check your settings."
 		if (push_notif) {
 			sendPush(msg)
+		}
+		if (phone) {
+			sendSms(phone, msg)
+		}
+	}
+}
