@@ -43,3 +43,11 @@ metadata {
 
 		input(
 			name: "blynk_prefix",
+			type: "text",
+			title: "Blynk URL prefix",
+			description: "Example: \"http://blynk-cloud.com\" or \"https://blynk-proxy.appspot.com\"",
+			required: true,
+		)
+
+		input(
+			name: "refresh_rate",
