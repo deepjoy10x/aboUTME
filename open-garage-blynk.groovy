@@ -26,3 +26,8 @@ metadata {
 		capability "Garage Door Control"
 		capability "Momentary"
 		capability "Polling"
+		capability "Refresh"
+		capability "Switch"
+
+		attribute "lastHttpStatus", "enum", ["succeeded", "failed"]
+	}
