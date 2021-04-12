@@ -31,3 +31,15 @@ metadata {
 
 		attribute "lastHttpStatus", "enum", ["succeeded", "failed"]
 	}
+
+	preferences {
+		input(
+			name: "auth_token",
+			type: "text",
+			title: "Blynk Auth Token",
+			description: "Your Auth Token from Blynk",
+			required: true,
+		)
+
+		input(
+			name: "blynk_prefix",
