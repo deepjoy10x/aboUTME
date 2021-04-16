@@ -77,3 +77,11 @@ metadata {
 			state(
 				"unknown",
 				label: "Unknown",
+				icon: "st.unknown.unknown.unknown",
+				action: "refresh.refresh",
+				backgroundColor: "#afafaf",
+			)
+			state(
+				"door_not_found",
+				label: "Not Found",
+				backgroundColor: "#CC1821",
