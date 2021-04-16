@@ -95,3 +95,12 @@ metadata {
 				backgroundColor: "#ffdd00",
 			)
 			state(
+				"closed",
+				label: "Closed",
+				icon: "st.doors.garage.garage-closed",
+				action: "open",
+				backgroundColor: "#00a0dc",
+			)
+			state(
+				"closing",
+				label: "Closing",
