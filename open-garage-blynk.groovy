@@ -51,3 +51,9 @@ metadata {
 
 		input(
 			name: "refresh_rate",
+			type: "enum",
+			title: "State Refresh Rate",
+			options: [
+				"Every minute",
+				"Every 5 minutes",
+				"Every 10 minutes",
