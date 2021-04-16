@@ -66,3 +66,14 @@ metadata {
 			required: true,
 		)
 	}
+
+	tiles {
+		standardTile("sDoorToggle", "device.door", width: 1, height: 1, canChangeIcon: false) {
+			state(
+				"default",
+				label: "",
+			)
+
+			state(
+				"unknown",
+				label: "Unknown",
