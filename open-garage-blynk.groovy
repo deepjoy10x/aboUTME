@@ -57,3 +57,12 @@ metadata {
 				"Every minute",
 				"Every 5 minutes",
 				"Every 10 minutes",
+				"Every 15 minutes",
+				"Every 30 minutes",
+				"Every hour",
+				"Disabled",
+			],
+			description: "Only disable it if you have another contact sensor hooked on the garage door",
+			required: true,
+		)
+	}
