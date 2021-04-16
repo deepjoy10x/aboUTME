@@ -85,3 +85,13 @@ metadata {
 				"door_not_found",
 				label: "Not Found",
 				backgroundColor: "#CC1821",
+			)
+
+			state(
+				"stopped",
+				label: "Stopped",
+				icon: "st.contact.contact.open",
+				action: "close",
+				backgroundColor: "#ffdd00",
+			)
+			state(
