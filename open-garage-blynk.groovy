@@ -104,3 +104,10 @@ metadata {
 			state(
 				"closing",
 				label: "Closing",
+				icon: "st.doors.garage.garage-closing",
+				backgroundColor: "#ffdd00",
+			)
+			state(
+				"open",
+				label: "Open",
+				icon: "st.doors.garage.garage-open",
