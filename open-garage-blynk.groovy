@@ -122,3 +122,7 @@ metadata {
 			)
 			state(
 				"moving",
+				label: "Moving",
+				icon: "st.motion.motion.active",
+				action: "refresh.refresh",
+				backgroundColor: "#ffdd00",
