@@ -111,3 +111,14 @@ metadata {
 				"open",
 				label: "Open",
 				icon: "st.doors.garage.garage-open",
+				action: "close",
+				backgroundColor: "#ffdd00",
+			)
+			state(
+				"opening",
+				label: "Opening",
+				icon: "st.doors.garage.garage-opening",
+				backgroundColor: "#ffdd00",
+			)
+			state(
+				"moving",
