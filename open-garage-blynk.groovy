@@ -146,3 +146,13 @@ metadata {
 				backgroundColor: "#ffa81e",
 			)
 			state(
+				"closed",
+				label: "${name}",
+				icon: "st.contact.contact.closed",
+				backgroundColor: "#79b821",
+			)
+		}
+
+		main(["sDoorToggle"])
+		details(["sDoorToggle", "sRefresh"])
+	}
