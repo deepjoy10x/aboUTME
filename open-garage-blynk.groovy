@@ -126,3 +126,14 @@ metadata {
 				icon: "st.motion.motion.active",
 				action: "refresh.refresh",
 				backgroundColor: "#ffdd00",
+			)
+		}
+
+		standardTile("sRefresh", "device.door", inactiveLabel: false, decoration: "flat") {
+			state(
+				"default",
+				label: "",
+				action: "refresh.refresh",
+				icon: "st.secondary.refresh",
+			)
+		}
