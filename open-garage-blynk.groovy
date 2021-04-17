@@ -137,3 +137,12 @@ metadata {
 				icon: "st.secondary.refresh",
 			)
 		}
+
+		standardTile("sContact", "device.contact") {
+			state(
+				"open",
+				label: "${name}",
+				icon: "st.contact.contact.open",
+				backgroundColor: "#ffa81e",
+			)
+			state(
