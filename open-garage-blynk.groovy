@@ -202,3 +202,12 @@ def push() {
 }
 
 def poll() {
+	log.debug "OpenGarage Polling"
+	refresh()
+}
+
+def refresh() {
+	doRefresh()
+}
+
+def checkRefresh() {
