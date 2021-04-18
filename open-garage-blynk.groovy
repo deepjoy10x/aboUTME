@@ -178,3 +178,9 @@ def parse(description) {
 	// TODO: handle 'contact' attribute
 	// TODO: handle 'switch' attribute
 }
+
+def push() {
+	log.debug "Executing 'push'"
+
+	def initStatus
+	getDoorStatus() { status -> initStatus = status }
