@@ -184,3 +184,13 @@ def push() {
 
 	def initStatus
 	getDoorStatus() { status -> initStatus = status }
+
+	def target
+	if (initStatus == "closed" || initStatus == "closing" || initStatus == "stopped" || initStatus == "moving") {
+		log.debug "Door is in a closed status, opening"
+		target = "open"
+	} else if (initStatus == "open" || initStatus == "opening") {
+		log.debug "Door is in an open status, closing"
+		target = "closed"
+	} else if (initStatus == "unknown") {
+		log.debug "Door is in an unknown state, doing nothing"
