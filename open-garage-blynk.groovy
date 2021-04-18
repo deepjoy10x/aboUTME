@@ -156,3 +156,15 @@ metadata {
 		main(["sDoorToggle"])
 		details(["sDoorToggle", "sRefresh"])
 	}
+}
+
+
+def installed() {
+	log.debug "Installing OpenGarage Door"
+
+	checkRefresh()
+	refresh()
+}
+
+def updated() {
+	log.debug "Updating OpenGarage Door"
