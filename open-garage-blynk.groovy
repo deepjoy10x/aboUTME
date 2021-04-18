@@ -211,3 +211,11 @@ def refresh() {
 }
 
 def checkRefresh() {
+	switch (refresh_rate.toLowerCase()) {
+	case "disabled":
+		unschedule(doRefresh)
+		doRefresh()
+		break
+	case "every 5 minutes":
+		runEvery5Minutes(doRefresh)
+		break
