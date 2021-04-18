@@ -168,3 +168,13 @@ def installed() {
 
 def updated() {
 	log.debug "Updating OpenGarage Door"
+
+	checkRefresh()
+	refresh()
+}
+
+def parse(description) {
+	log.debug "Parsing '${description}'"
+	// TODO: handle 'contact' attribute
+	// TODO: handle 'switch' attribute
+}
