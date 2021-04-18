@@ -228,3 +228,14 @@ def checkRefresh() {
 	case "every 30 minutes":
 		runEvery30Minutes(doRefresh)
 		break
+	case "every hour":
+		runEvery1Hour(doRefresh)
+		break
+	case "every minute":
+	default:
+		runEvery1Minute(doRefresh)
+		break
+	}
+}
+
+def doRefresh() {
