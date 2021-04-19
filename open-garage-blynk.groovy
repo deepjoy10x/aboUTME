@@ -246,3 +246,9 @@ def doRefresh() {
 		log.debug "Door Status: $status"
 	}
 }
+
+def afterForceRefresh(status, startTime) {
+	def time = (now() - startTime) / 1000
+	log.debug "Final Door Status: $status, took $time seconds"
+	setDoorState(status)
+}
