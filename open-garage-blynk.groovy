@@ -303,3 +303,17 @@ def on() {
 
 	open()
 }
+
+def off() {
+	log.debug "Executing 'off'"
+
+	close()
+}
+
+def open() {
+	log.debug "Opening Door"
+
+	def initStatus
+	getDoorStatus() { status -> initStatus = status }
+
+	if (initStatus == "opening" || initStatus == "open" || initStatus == "moving") {
