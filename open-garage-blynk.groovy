@@ -325,3 +325,10 @@ def open() {
 
 	flipDoor()
 	refreshUntil("open")
+}
+
+def close() {
+	log.debug "Closing Door"
+
+	def initStatus
+	getDoorStatus() { status -> initStatus = status }
