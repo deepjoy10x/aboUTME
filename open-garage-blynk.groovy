@@ -317,3 +317,11 @@ def open() {
 	getDoorStatus() { status -> initStatus = status }
 
 	if (initStatus == "opening" || initStatus == "open" || initStatus == "moving") {
+		log.debug "Current status is $initStatus, ignore open command"
+		return
+	}
+
+	setDoorState("opening")
+
+	flipDoor()
+	refreshUntil("open")
