@@ -252,3 +252,9 @@ def afterForceRefresh(status, startTime) {
 	log.debug "Final Door Status: $status, took $time seconds"
 	setDoorState(status)
 }
+
+def forceRefreshUntil(data) {
+	def timestamp = now()
+	def target = data.targetStatus
+	log.debug "forceRefreshUntil: ${new Date()}, timestamp: $timestamp, stops at ${data.stopAt}, target status: $target"
+	def scheduleNext = true
