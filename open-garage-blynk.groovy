@@ -258,3 +258,19 @@ def forceRefreshUntil(data) {
 	def target = data.targetStatus
 	log.debug "forceRefreshUntil: ${new Date()}, timestamp: $timestamp, stops at ${data.stopAt}, target status: $target"
 	def scheduleNext = true
+	if (timestamp >= data.stopAt) {
+		log.debug "Stopping refreshing..."
+		getDoorStatus() { status ->
+			afterForceRefresh(status, data.startTime)
+		}
+		scheduleNext = false
+		return
+	}
+	getDoorStatus() { status ->
+		log.debug "forceRefreshUntil: get door status: $status"
+		if (status == target) {
+			log.debug "Got target status $status, stopping refreshing..."
+			afterForceRefresh(status, data.startTime)
+			scheduleNext = false
+			return
+		}
