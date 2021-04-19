@@ -239,3 +239,10 @@ def checkRefresh() {
 }
 
 def doRefresh() {
+	log.debug "Refreshing Door State"
+
+	getDoorStatus() { status ->
+		setDoorState(status)
+		log.debug "Door Status: $status"
+	}
+}
