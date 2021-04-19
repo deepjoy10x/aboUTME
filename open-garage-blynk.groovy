@@ -278,3 +278,15 @@ def forceRefreshUntil(data) {
 	if (scheduleNext) {
 		def options = [
 			overwrite: true,
+			data: data,
+		]
+		runIn(3, forceRefreshUntil, options)
+	} else {
+		unschedule(forceRefreshUntil)
+	}
+}
+
+def refreshUntil(target) {
+	log.debug "refreshUntil: $target"
+	def maxMin = 5
+	def timestamp = now() + 60 * 1000 * maxMin
