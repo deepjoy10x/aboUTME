@@ -359,3 +359,14 @@ def getDoorStatus(callback = {}) {
 }
 
 def flipDoor() {
+	def body = [
+		"value": 1,
+	]
+	callApiGet("/update/V1", body) { resp ->
+		// if error, do something?
+	}
+}
+
+def setContactSensorState(status) {
+	// Sync contact sensor
+	if (status == "open" || status == "opening" || status == "stopped") {
