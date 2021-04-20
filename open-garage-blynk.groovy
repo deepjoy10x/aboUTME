@@ -347,3 +347,15 @@ def close() {
 def getDoorStatus(callback = {}) {
 	callApiGet("/get/V0") { resp ->
 		def value = resp.data[0] as long
+		def state
+		if (value == 0) {
+			state = "closed"
+		} else {
+			state = "open"
+		}
+		log.debug "getDoorStatus: value = $value, state = $state"
+		callback(state)
+	}
+}
+
+def flipDoor() {
