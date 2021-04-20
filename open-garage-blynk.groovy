@@ -332,3 +332,10 @@ def close() {
 
 	def initStatus
 	getDoorStatus() { status -> initStatus = status }
+
+	if (initStatus == "closing" || initStatus == "closed" || initStatus == "moving") {
+		log.debug "Current status is $initStatus, ignore open command"
+		return
+	}
+
+	setDoorState("closing")
