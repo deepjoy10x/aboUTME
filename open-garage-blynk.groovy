@@ -339,3 +339,11 @@ def close() {
 	}
 
 	setDoorState("closing")
+
+	flipDoor()
+	refreshUntil("closed")
+}
+
+def getDoorStatus(callback = {}) {
+	callApiGet("/get/V0") { resp ->
+		def value = resp.data[0] as long
