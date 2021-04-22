@@ -385,3 +385,17 @@ def setContactSensorState(status) {
 	} else if (status == "closed" || status == "closing") {
 		sendEvent(
 			name: "contact",
+			value: "closed",
+			displayed: true,
+			descriptionText: "Contact is closed",
+		)
+		sendEvent(
+			name: "switch",
+			value: "off",
+			displayed: true,
+			descriptionText: "Switch is off",
+		)
+	}
+}
+
+def setDoorState(status) {
