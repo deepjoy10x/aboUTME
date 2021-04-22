@@ -399,3 +399,18 @@ def setContactSensorState(status) {
 }
 
 def setDoorState(status) {
+	sendEvent(
+		name: "door",
+		value: status,
+		displayed: true,
+		descriptionText: "Door is $status",
+	)
+	setContactSensorState(status)
+}
+
+def callApiGet(apipath, callback) {
+	return callApiGet(apipath, null, callback)
+}
+
+def callApiGet(apipath, query, callback) {
+	def params = [
