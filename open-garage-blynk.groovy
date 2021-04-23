@@ -414,3 +414,16 @@ def callApiGet(apipath, callback) {
 
 def callApiGet(apipath, query, callback) {
 	def params = [
+		uri: blynk_prefix,
+		path: "/$auth_token$apipath",
+		query: query,
+	]
+
+	log.debug "http get params: $params"
+
+	try {
+		httpGet(params) { resp ->
+			log.debug "response data: ${resp.data}"
+			sendEvent(
+				name: "lastHttpStatus",
+				value: "succeeded",
