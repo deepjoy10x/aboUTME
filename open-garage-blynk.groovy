@@ -427,3 +427,18 @@ def callApiGet(apipath, query, callback) {
 			sendEvent(
 				name: "lastHttpStatus",
 				value: "succeeded",
+				displayed: true,
+				descriptionText: "HTTP request succeeded",
+			)
+			callback(resp)
+		}
+	} catch (e) {
+		log.debug "API Error: $e"
+		setDoorState("unknown")
+		sendEvent(
+			name: "lastHttpStatus",
+			value: "failed",
+			displayed: true,
+			descriptionText: "HTTP request failed",
+		)
+	}
