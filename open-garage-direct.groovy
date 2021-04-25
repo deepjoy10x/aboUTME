@@ -1,2 +1,2 @@
 /**
- *  SmartThi
+ *  SmartThings 
