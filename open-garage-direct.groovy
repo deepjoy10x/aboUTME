@@ -1,2 +1,2 @@
 /**
- *  SmartThings 
+ *  SmartThings device ha
