@@ -1,2 +1,2 @@
 /**
- *  SmartThings device ha
+ *  SmartThings device handler fo
