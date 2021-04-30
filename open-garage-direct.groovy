@@ -1,2 +1,2 @@
 /**
- *  SmartThings device handler fo
+ *  SmartThings device handler for OpenGarage
