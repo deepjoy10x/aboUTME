@@ -1,2 +1,4 @@
 /**
- *  SmartThings device handler for OpenGarage
+ *  SmartThings device handler for OpenGarage.
+ *
+ *  C
