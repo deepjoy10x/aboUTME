@@ -1,4 +1,4 @@
 /**
  *  SmartThings device handler for OpenGarage.
  *
- *  Copyright 2018 Yuxuan "fish
+ *  Copyright 2018 Yuxuan "fishy" W
