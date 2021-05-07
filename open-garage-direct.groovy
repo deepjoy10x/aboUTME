@@ -3,4 +3,4 @@
  *
  *  Copyright 2018 Yuxuan "fishy" Wang
  *
- *  Licensed under the Apache License, V
+ *  Licensed under the Apache License, Version 2
