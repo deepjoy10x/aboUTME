@@ -19,4 +19,4 @@
  */
 
 metadata {
-	definition(name: "OpenGa
+	definition(name: "OpenGarage-Direct"
