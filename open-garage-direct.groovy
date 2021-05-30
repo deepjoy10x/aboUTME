@@ -19,4 +19,4 @@
  */
 
 metadata {
-	def
+	definition(nam
