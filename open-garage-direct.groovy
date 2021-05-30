@@ -18,4 +18,5 @@
  *
  */
 
-metadat
+metadata {
+	def
