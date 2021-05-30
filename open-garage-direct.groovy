@@ -19,4 +19,4 @@
  */
 
 metadata {
-	definition(name: "OpenGarage-Direct", namespace: "fishy"
+	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "
