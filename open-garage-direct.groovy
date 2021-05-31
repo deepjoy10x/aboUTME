@@ -20,4 +20,4 @@
 
 metadata {
 	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "Yuxuan Wang") {
-		capabil
+		capability "Contac
