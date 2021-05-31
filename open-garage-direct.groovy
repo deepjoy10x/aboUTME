@@ -19,4 +19,5 @@
  */
 
 metadata {
-	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "Yuxuan Wang"
+	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "Yuxuan Wang") {
+		capabil
