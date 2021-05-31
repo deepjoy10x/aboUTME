@@ -20,4 +20,5 @@
 
 metadata {
 	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "Yuxuan Wang") {
-		capability "Contac
+		capability "Contact Sensor"
+	
