@@ -19,4 +19,4 @@
  */
 
 metadata {
-	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "Yuxuan 
+	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "Yuxuan Wang"
