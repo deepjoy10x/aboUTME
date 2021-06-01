@@ -22,4 +22,4 @@ metadata {
 	definition(name: "OpenGarage-Direct", namespace: "fishy", author: "Yuxuan Wang") {
 		capability "Contact Sensor"
 		capability "Door Control"
-		capabi
+		capability "Gara
