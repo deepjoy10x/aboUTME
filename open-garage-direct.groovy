@@ -23,4 +23,5 @@ metadata {
 		capability "Contact Sensor"
 		capability "Door Control"
 		capability "Garage Door Control"
-		capability "Mo
+		capability "Momentary"
+		c
