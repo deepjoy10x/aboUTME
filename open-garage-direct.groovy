@@ -24,4 +24,4 @@ metadata {
 		capability "Door Control"
 		capability "Garage Door Control"
 		capability "Momentary"
-		capability "Po
+		capability "Pollin
