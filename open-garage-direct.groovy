@@ -25,4 +25,4 @@ metadata {
 		capability "Garage Door Control"
 		capability "Momentary"
 		capability "Polling"
-		cap
+		capability "R
