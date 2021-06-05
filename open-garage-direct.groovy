@@ -25,4 +25,5 @@ metadata {
 		capability "Garage Door Control"
 		capability "Momentary"
 		capability "Polling"
-		capability "R
+		capability "Refresh"
+		c
