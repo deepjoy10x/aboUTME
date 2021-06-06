@@ -26,4 +26,6 @@ metadata {
 		capability "Momentary"
 		capability "Polling"
 		capability "Refresh"
-		capability "Swi
+		capability "Switch"
+
+		ca
