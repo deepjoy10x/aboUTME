@@ -28,4 +28,5 @@ metadata {
 		capability "Refresh"
 		capability "Switch"
 
-		capability "Act
+		capability "Actuator"
+		ca
