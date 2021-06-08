@@ -29,4 +29,4 @@ metadata {
 		capability "Switch"
 
 		capability "Actuator"
-		ca
+		capability "S
