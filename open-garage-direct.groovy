@@ -31,3 +31,4 @@ metadata {
 		capability "Actuator"
 		capability "Sensor"
 
+		attri
