@@ -31,4 +31,4 @@ metadata {
 		capability "Actuator"
 		capability "Sensor"
 
-		attri
+		attribute "last
