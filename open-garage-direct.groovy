@@ -31,4 +31,4 @@ metadata {
 		capability "Actuator"
 		capability "Sensor"
 
-		attribute "lastHttpStatus", "enum",
+		attribute "lastHttpStatus", "enum", ["succ
