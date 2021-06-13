@@ -33,4 +33,4 @@ metadata {
 
 		attribute "lastHttpStatus", "enum", ["succeeded", "failed"]
 		attribute "carStatus", "enum", ["present", "absent", "unknown"]
-		attribute "dist
+		attribute "distance", "
