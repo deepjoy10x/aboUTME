@@ -32,4 +32,4 @@ metadata {
 		capability "Sensor"
 
 		attribute "lastHttpStatus", "enum", ["succeeded", "failed"]
-		attribute "carStatus", "enum", ["present", "abse
+		attribute "carStatus", "enum", ["present", "absent", "unkno
