@@ -37,4 +37,5 @@ metadata {
 		attribute "readCount", "number"
 	}
 
-	prefer
+	preferences {
+		
