@@ -35,3 +35,6 @@ metadata {
 		attribute "carStatus", "enum", ["present", "absent", "unknown"]
 		attribute "distance", "number"
 		attribute "readCount", "number"
+	}
+
+	prefer
