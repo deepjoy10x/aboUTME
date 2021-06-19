@@ -39,4 +39,4 @@ metadata {
 
 	preferences {
 		input(
-			name: 
+			name: "device_key",
