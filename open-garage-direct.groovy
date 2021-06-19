@@ -41,4 +41,4 @@ metadata {
 		input(
 			name: "device_key",
 			type: "text",
-			title: "
+			title: "Device key",
