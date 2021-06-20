@@ -42,4 +42,4 @@ metadata {
 			name: "device_key",
 			type: "text",
 			title: "Device key",
-			description: "Factory d
+			description: "Factory default is \
