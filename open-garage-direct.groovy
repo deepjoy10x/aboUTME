@@ -42,3 +42,4 @@ metadata {
 			name: "device_key",
 			type: "text",
 			title: "Device key",
+			descr
