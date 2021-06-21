@@ -44,3 +44,4 @@ metadata {
 			title: "Device key",
 			description: "Factory default is \"opendoor\"",
 			required: true,
+		
