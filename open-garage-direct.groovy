@@ -48,4 +48,4 @@ metadata {
 
 		input(
 			name: "http_prefix",
-			t
+			type: "text",
