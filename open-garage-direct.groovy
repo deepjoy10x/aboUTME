@@ -49,4 +49,5 @@ metadata {
 		input(
 			name: "http_prefix",
 			type: "text",
-			title: "HTTP(s) pref
+			title: "HTTP(s) prefix",
+		
