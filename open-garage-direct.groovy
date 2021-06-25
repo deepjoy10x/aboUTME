@@ -50,4 +50,4 @@ metadata {
 			name: "http_prefix",
 			type: "text",
 			title: "HTTP(s) prefix",
-			description: "Example:
+			description: "Example: \"http://
