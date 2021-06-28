@@ -50,4 +50,5 @@ metadata {
 			name: "http_prefix",
 			type: "text",
 			title: "HTTP(s) prefix",
-			description: "Example: \"http://yourip:8080\" or \"https://opengarage.myhome.com\
+			description: "Example: \"http://yourip:8080\" or \"https://opengarage.myhome.com\"",
+			r
