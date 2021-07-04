@@ -53,3 +53,6 @@ metadata {
 			description: "Example: \"http://yourip:8080\" or \"https://opengarage.myhome.com\"",
 			required: true,
 		)
+
+		input(
+	
