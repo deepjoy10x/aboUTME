@@ -51,4 +51,5 @@ metadata {
 			type: "text",
 			title: "HTTP(s) prefix",
 			description: "Example: \"http://yourip:8080\" or \"https://opengarage.myhome.com\"",
-			required: tru
+			required: true,
+		)
