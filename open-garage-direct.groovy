@@ -57,4 +57,4 @@ metadata {
 		input(
 			name: "http_auth",
 			type: "text",
-			title: "HTT
+			title: "HTTP Auth
