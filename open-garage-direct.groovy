@@ -57,4 +57,5 @@ metadata {
 		input(
 			name: "http_auth",
 			type: "text",
-			title: "HTTP Authorization he
+			title: "HTTP Authorization header",
+			
