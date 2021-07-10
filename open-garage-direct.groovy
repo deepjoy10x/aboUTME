@@ -58,4 +58,4 @@ metadata {
 			name: "http_auth",
 			type: "text",
 			title: "HTTP Authorization header",
-			description: "Optional. Example: \"Basic dXNlcm5hbWU6
+			description: "Optional. Example: \"Basic dXNlcm5hbWU6cGFzc3dvcmQ
