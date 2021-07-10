@@ -59,4 +59,5 @@ metadata {
 			type: "text",
 			title: "HTTP Authorization header",
 			description: "Optional. Example: \"Basic dXNlcm5hbWU6cGFzc3dvcmQ=\"",
-			required: f
+			required: false,
+		
