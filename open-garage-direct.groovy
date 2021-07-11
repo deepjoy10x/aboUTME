@@ -63,4 +63,5 @@ metadata {
 		)
 
 		input(
-			name: "refresh_rate
+			name: "refresh_rate",
+			typ
