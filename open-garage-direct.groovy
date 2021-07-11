@@ -63,4 +63,4 @@ metadata {
 		)
 
 		input(
-			name: "refr
+			name: "refresh_rate
