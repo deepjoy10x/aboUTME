@@ -64,4 +64,5 @@ metadata {
 
 		input(
 			name: "refresh_rate",
-			type: "enum
+			type: "enum",
+			tit
