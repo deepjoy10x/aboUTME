@@ -65,4 +65,4 @@ metadata {
 		input(
 			name: "refresh_rate",
 			type: "enum",
-			title: "State Refres
+			title: "State Refresh Rate
