@@ -67,4 +67,5 @@ metadata {
 			type: "enum",
 			title: "State Refresh Rate",
 			options: [
-				"Every min
+				"Every minute",
+		
