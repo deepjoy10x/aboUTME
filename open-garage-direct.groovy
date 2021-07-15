@@ -66,4 +66,5 @@ metadata {
 			name: "refresh_rate",
 			type: "enum",
 			title: "State Refresh Rate",
-			op
+			options: [
+				
