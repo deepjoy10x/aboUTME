@@ -69,4 +69,5 @@ metadata {
 			options: [
 				"Every minute",
 				"Every 5 minutes",
-				"Every 10 minute
+				"Every 10 minutes",
+				"Every 1
