@@ -68,4 +68,5 @@ metadata {
 			title: "State Refresh Rate",
 			options: [
 				"Every minute",
-				"Every 5 minutes
+				"Every 5 minutes",
+				"Every
