@@ -72,4 +72,5 @@ metadata {
 				"Every 10 minutes",
 				"Every 15 minutes",
 				"Every 30 minutes",
-				"Every h
+				"Every hour",
+				"
