@@ -73,4 +73,6 @@ metadata {
 				"Every 15 minutes",
 				"Every 30 minutes",
 				"Every hour",
-				"Disabled"
+				"Disabled",
+			],
+		
