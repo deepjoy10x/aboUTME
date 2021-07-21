@@ -75,4 +75,4 @@ metadata {
 				"Every hour",
 				"Disabled",
 			],
-			description: "Only disable it if you have another
+			description: "Only disable it if you have another contac
