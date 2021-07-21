@@ -76,3 +76,4 @@ metadata {
 				"Disabled",
 			],
 			description: "Only disable it if you have another contact sensor hooked on the garage door",
+			req
