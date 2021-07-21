@@ -75,4 +75,4 @@ metadata {
 				"Every hour",
 				"Disabled",
 			],
-			description: "Only disable
+			description: "Only disable it if you h
