@@ -81,4 +81,4 @@ metadata {
 	}
 
 	tiles {
-		standardTile("
+		standardTile("sDoorToggl
