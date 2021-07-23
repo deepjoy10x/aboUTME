@@ -81,4 +81,4 @@ metadata {
 	}
 
 	tiles {
-		s
+		standa
