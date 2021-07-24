@@ -81,4 +81,4 @@ metadata {
 	}
 
 	tiles {
-		standardTile("sDoorToggle", "device.door", width
+		standardTile("sDoorToggle", "device.door", width: 2, hei
