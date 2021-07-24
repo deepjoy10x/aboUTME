@@ -81,4 +81,4 @@ metadata {
 	}
 
 	tiles {
-		standardTile("sDoorToggl
+		standardTile("sDoorToggle", "device.do
