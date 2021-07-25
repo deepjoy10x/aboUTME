@@ -81,4 +81,4 @@ metadata {
 	}
 
 	tiles {
-		standardTile("sDoorToggle", "device.door", width: 2, height: 2, canChangeIcon
+		standardTile("sDoorToggle", "device.door", width: 2, height: 2, canChangeIcon: false) {
