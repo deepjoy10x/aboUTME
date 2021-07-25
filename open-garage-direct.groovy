@@ -83,4 +83,4 @@ metadata {
 	tiles {
 		standardTile("sDoorToggle", "device.door", width: 2, height: 2, canChangeIcon: false) {
 			state(
-	
+				"unknown",
