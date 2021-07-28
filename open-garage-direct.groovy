@@ -85,4 +85,4 @@ metadata {
 			state(
 				"unknown",
 				label: "Unknown",
-			
+				icon: "st.
