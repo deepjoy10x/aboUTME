@@ -86,4 +86,4 @@ metadata {
 				"unknown",
 				label: "Unknown",
 				icon: "st.unknown.unknown.unknown",
-				action: "ref
+				action: "refresh.refresh
