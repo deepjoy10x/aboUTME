@@ -87,4 +87,5 @@ metadata {
 				label: "Unknown",
 				icon: "st.unknown.unknown.unknown",
 				action: "refresh.refresh",
-				backgroundColor: "#afaf
+				backgroundColor: "#afafaf",
+			)
