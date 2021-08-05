@@ -92,3 +92,4 @@ metadata {
 
 			state(
 				"closed",
+				labe
