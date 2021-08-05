@@ -92,4 +92,5 @@ metadata {
 
 			state(
 				"closed",
-				label: "Closed"
+				label: "Closed",
+				icon
