@@ -94,4 +94,4 @@ metadata {
 				"closed",
 				label: "Closed",
 				icon: "st.doors.garage.garage-closed",
-			
+				action: 
