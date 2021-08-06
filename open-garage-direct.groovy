@@ -93,4 +93,5 @@ metadata {
 			state(
 				"closed",
 				label: "Closed",
-				icon: "st.doors.garage.garage-clos
+				icon: "st.doors.garage.garage-closed",
+			
