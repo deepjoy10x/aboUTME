@@ -93,4 +93,4 @@ metadata {
 			state(
 				"closed",
 				label: "Closed",
-				icon
+				icon: "st.door
