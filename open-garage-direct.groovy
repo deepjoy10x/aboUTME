@@ -95,4 +95,4 @@ metadata {
 				label: "Closed",
 				icon: "st.doors.garage.garage-closed",
 				action: "open",
-				background
+				backgroundColor: "#0
