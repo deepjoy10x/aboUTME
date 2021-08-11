@@ -99,4 +99,5 @@ metadata {
 			)
 			state(
 				"closing",
-				label: "Clo
+				label: "Closing",
+				ic
