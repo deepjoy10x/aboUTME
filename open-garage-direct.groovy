@@ -99,4 +99,4 @@ metadata {
 			)
 			state(
 				"closing",
-				labe
+				label: "Clo
