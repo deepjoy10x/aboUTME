@@ -100,4 +100,4 @@ metadata {
 			state(
 				"closing",
 				label: "Closing",
-				icon: "st.d
+				icon: "st.doors.gara
