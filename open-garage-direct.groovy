@@ -100,4 +100,4 @@ metadata {
 			state(
 				"closing",
 				label: "Closing",
-				ic
+				icon: "st.d
