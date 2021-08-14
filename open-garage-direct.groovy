@@ -103,4 +103,5 @@ metadata {
 				icon: "st.doors.garage.garage-closing",
 				backgroundColor: "#ffdd00",
 			)
-		
+			state(
+	
