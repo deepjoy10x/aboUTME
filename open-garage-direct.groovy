@@ -101,4 +101,6 @@ metadata {
 				"closing",
 				label: "Closing",
 				icon: "st.doors.garage.garage-closing",
-				backgroundColor: "#ffd
+				backgroundColor: "#ffdd00",
+			)
+		
