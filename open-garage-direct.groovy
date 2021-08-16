@@ -104,4 +104,4 @@ metadata {
 				backgroundColor: "#ffdd00",
 			)
 			state(
-				"o
+				"open",
