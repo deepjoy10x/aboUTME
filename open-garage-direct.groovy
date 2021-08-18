@@ -108,4 +108,4 @@ metadata {
 				label: "Open",
 				icon: "st.doors.garage.garage-open",
 				action: "close",
-				back
+				background
