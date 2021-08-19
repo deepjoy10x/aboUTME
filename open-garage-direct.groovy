@@ -110,3 +110,4 @@ metadata {
 				action: "close",
 				backgroundColor: "#ffdd00",
 			)
+			state
