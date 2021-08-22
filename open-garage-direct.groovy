@@ -113,4 +113,4 @@ metadata {
 			state(
 				"opening",
 				label: "Opening",
-				icon
+				icon: "st.doors.ga
