@@ -112,4 +112,5 @@ metadata {
 			)
 			state(
 				"opening",
-				label: "Open
+				label: "Opening",
+				icon
