@@ -113,4 +113,4 @@ metadata {
 			state(
 				"opening",
 				label: "Opening",
-				icon: "st.doors.garage.garage
+				icon: "st.doors.garage.garage-openin
