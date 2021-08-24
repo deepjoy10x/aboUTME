@@ -114,4 +114,5 @@ metadata {
 				"opening",
 				label: "Opening",
 				icon: "st.doors.garage.garage-opening",
-				backgroundColor: "
+				backgroundColor: "#ffdd00",
+	
