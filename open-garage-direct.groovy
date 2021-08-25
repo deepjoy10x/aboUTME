@@ -118,4 +118,4 @@ metadata {
 			)
 		}
 
-		sta
+		standardTile
