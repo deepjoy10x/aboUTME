@@ -118,4 +118,4 @@ metadata {
 			)
 		}
 
-		standardTile("sCar",
+		standardTile("sCar", "device.
