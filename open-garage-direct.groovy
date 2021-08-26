@@ -118,4 +118,4 @@ metadata {
 			)
 		}
 
-		standardTile("sCar", "device.
+		standardTile("sCar", "device.carStatus"
