@@ -122,4 +122,4 @@ metadata {
 			state(
 				"unknown",
 				label: "Car: Unknown",
-				backgroundCo
+				backgroundColor: "#afa
