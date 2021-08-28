@@ -121,4 +121,5 @@ metadata {
 		standardTile("sCar", "device.carStatus") {
 			state(
 				"unknown",
-				label: "Car: Unkn
+				label: "Car: Unknown",
+			
