@@ -127,4 +127,5 @@ metadata {
 			state(
 				"present",
 				label: "Car: Present",
-				backgroundColor: "#
+				backgroundColor: "#00a0dc",
+			
