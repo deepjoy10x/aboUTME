@@ -131,4 +131,5 @@ metadata {
 			)
 			state(
 				"absent",
-				label: "Car: Ab
+				label: "Car: Absent",
+	
