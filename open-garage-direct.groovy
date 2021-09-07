@@ -130,4 +130,5 @@ metadata {
 				backgroundColor: "#00a0dc",
 			)
 			state(
-				"absent
+				"absent",
+				labe
