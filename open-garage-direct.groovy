@@ -132,4 +132,5 @@ metadata {
 			state(
 				"absent",
 				label: "Car: Absent",
-				backgroundColor: "#ffdd00
+				backgroundColor: "#ffdd00",
+			
