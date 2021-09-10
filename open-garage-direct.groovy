@@ -136,4 +136,4 @@ metadata {
 			)
 		}
 
-		standardTile("sRefresh", "device.doo
+		standardTile("sRefresh", "device.door", inac
