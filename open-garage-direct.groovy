@@ -136,4 +136,4 @@ metadata {
 			)
 		}
 
-		standardTile("sRefre
+		standardTile("sRefresh", "device
