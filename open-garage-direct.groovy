@@ -136,4 +136,4 @@ metadata {
 			)
 		}
 
-		standardTile("sRefresh", "device
+		standardTile("sRefresh", "device.doo
