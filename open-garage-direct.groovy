@@ -138,4 +138,5 @@ metadata {
 
 		standardTile("sRefresh", "device.door", inactiveLabel: false, decoration: "flat") {
 			state(
-				"def
+				"default",
+				label:
