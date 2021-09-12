@@ -136,4 +136,5 @@ metadata {
 			)
 		}
 
-		standardTile("sRefresh", "device.door", inactiveLabel: false, decoration: "flat
+		standardTile("sRefresh", "device.door", inactiveLabel: false, decoration: "flat") {
+	
