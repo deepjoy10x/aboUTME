@@ -136,4 +136,4 @@ metadata {
 			)
 		}
 
-		standardTile("sRefresh", "device.door", inac
+		standardTile("sRefresh", "device.door", inactiveLabel: fa
