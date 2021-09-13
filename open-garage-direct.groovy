@@ -141,4 +141,6 @@ metadata {
 				"default",
 				label: "",
 				action: "refresh.refresh",
-				icon: "st.secondary.refres
+				icon: "st.secondary.refresh",
+			)
+		}
