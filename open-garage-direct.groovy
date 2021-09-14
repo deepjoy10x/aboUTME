@@ -145,4 +145,4 @@ metadata {
 			)
 		}
 
-		standardTile("s
+		standardTile("sContact", "
