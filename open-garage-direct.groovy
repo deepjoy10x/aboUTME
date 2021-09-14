@@ -145,4 +145,4 @@ metadata {
 			)
 		}
 
-		stan
+		standardTile("s
