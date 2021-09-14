@@ -145,4 +145,4 @@ metadata {
 			)
 		}
 
-		standardTile("sContact", "
+		standardTile("sContact", "device
