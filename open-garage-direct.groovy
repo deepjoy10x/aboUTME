@@ -146,4 +146,5 @@ metadata {
 		}
 
 		standardTile("sContact", "device.contact") {
-			sta
+			state(
+				"op
