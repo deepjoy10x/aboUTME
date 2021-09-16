@@ -148,4 +148,5 @@ metadata {
 		standardTile("sContact", "device.contact") {
 			state(
 				"open",
-				label: "
+				label: "Open",
+	
