@@ -151,3 +151,5 @@ metadata {
 				label: "Open",
 				icon: "st.contact.contact.open",
 				backgroundColor: "#ffa81e",
+			)
+			
