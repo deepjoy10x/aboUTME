@@ -149,4 +149,4 @@ metadata {
 			state(
 				"open",
 				label: "Open",
-				icon: "st.contact.c
+				icon: "st.contact.contact.
