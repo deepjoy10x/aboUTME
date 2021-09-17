@@ -152,4 +152,5 @@ metadata {
 				icon: "st.contact.contact.open",
 				backgroundColor: "#ffa81e",
 			)
-			
+			state(
+				"clo
