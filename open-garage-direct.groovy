@@ -153,4 +153,5 @@ metadata {
 				backgroundColor: "#ffa81e",
 			)
 			state(
-				"clo
+				"closed",
+			
