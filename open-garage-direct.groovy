@@ -154,4 +154,5 @@ metadata {
 			)
 			state(
 				"closed",
-				label: "Closed
+				label: "Closed",
+				ic
