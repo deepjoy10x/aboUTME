@@ -155,4 +155,4 @@ metadata {
 			state(
 				"closed",
 				label: "Closed",
-				ic
+				icon: "st.c
