@@ -155,4 +155,5 @@ metadata {
 			state(
 				"closed",
 				label: "Closed",
-				icon: "st.contact.contact.closed"
+				icon: "st.contact.contact.closed",
+				
