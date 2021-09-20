@@ -160,4 +160,5 @@ metadata {
 			)
 		}
 
-		main(["sDoorTogg
+		main(["sDoorToggle"])
+		de
