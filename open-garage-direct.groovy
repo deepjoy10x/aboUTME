@@ -160,4 +160,4 @@ metadata {
 			)
 		}
 
-		ma
+		main(["sD
