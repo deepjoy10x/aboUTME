@@ -156,4 +156,4 @@ metadata {
 				"closed",
 				label: "Closed",
 				icon: "st.contact.contact.closed",
-				backgroundColor: 
+				backgroundColor: "#79b821"
