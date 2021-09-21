@@ -161,4 +161,4 @@ metadata {
 		}
 
 		main(["sDoorToggle"])
-		details([
+		details(["sDoorToggl
