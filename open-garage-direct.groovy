@@ -166,4 +166,4 @@ metadata {
 }
 
 
-def 
+def installed()
