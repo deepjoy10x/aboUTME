@@ -167,4 +167,4 @@ metadata {
 
 
 def installed() {
-	log.debug
+	log.debug "Installing Op
