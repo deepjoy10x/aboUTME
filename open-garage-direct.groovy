@@ -167,4 +167,4 @@ metadata {
 
 
 def installed() {
-	log.d
+	log.debug
