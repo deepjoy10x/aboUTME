@@ -169,4 +169,4 @@ metadata {
 def installed() {
 	log.debug "Installing OpenGarage Door"
 
-	checkR
+	checkRefresh()
