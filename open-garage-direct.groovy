@@ -167,4 +167,4 @@ metadata {
 
 
 def installed() {
-	log.debug "Installing Op
+	log.debug "Installing OpenGarage Do
