@@ -166,4 +166,5 @@ metadata {
 }
 
 
-def installed()
+def installed() {
+	log.d
