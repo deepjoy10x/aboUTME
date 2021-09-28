@@ -173,4 +173,4 @@ def installed() {
 	refresh()
 }
 
-def
+def updated() 
