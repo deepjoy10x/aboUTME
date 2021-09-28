@@ -170,3 +170,4 @@ def installed() {
 	log.debug "Installing OpenGarage Door"
 
 	checkRefresh()
+	refresh
