@@ -180,4 +180,5 @@ def updated() {
 	refresh()
 }
 
-def parse(description) 
+def parse(description) {
+	lo
