@@ -176,4 +176,5 @@ def installed() {
 def updated() {
 	log.debug "Updating OpenGarage Door"
 
-	checkRefresh(
+	checkRefresh()
+	refr
