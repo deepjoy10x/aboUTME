@@ -177,4 +177,7 @@ def updated() {
 	log.debug "Updating OpenGarage Door"
 
 	checkRefresh()
-	refr
+	refresh()
+}
+
+de
