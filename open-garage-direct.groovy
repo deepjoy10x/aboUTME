@@ -174,4 +174,4 @@ def installed() {
 }
 
 def updated() {
-	log.debug "Upd
+	log.debug "Updating Op
