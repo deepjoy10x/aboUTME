@@ -174,4 +174,6 @@ def installed() {
 }
 
 def updated() {
-	log.debug "Updating OpenGarage Doo
+	log.debug "Updating OpenGarage Door"
+
+	checkR
