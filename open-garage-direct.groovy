@@ -181,4 +181,4 @@ def updated() {
 }
 
 def parse(description) {
-	log.debug "Parsing '${desc
+	log.debug "Parsing '${description
