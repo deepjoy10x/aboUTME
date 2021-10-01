@@ -181,4 +181,5 @@ def updated() {
 }
 
 def parse(description) {
-	log.debug "Parsing '${description
+	log.debug "Parsing '${description}'"
+	// TODO: ha
