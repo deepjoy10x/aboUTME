@@ -183,4 +183,4 @@ def updated() {
 def parse(description) {
 	log.debug "Parsing '${description}'"
 	// TODO: handle 'contact' attribute
-	// TODO: handle 'switch' 
+	// TODO: handle 'switch' attribute
