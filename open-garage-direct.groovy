@@ -184,3 +184,6 @@ def parse(description) {
 	log.debug "Parsing '${description}'"
 	// TODO: handle 'contact' attribute
 	// TODO: handle 'switch' attribute
+}
+
+def 
