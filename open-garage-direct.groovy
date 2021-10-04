@@ -186,4 +186,5 @@ def parse(description) {
 	// TODO: handle 'switch' attribute
 }
 
-def 
+def push() {
+	log
