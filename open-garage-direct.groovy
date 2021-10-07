@@ -189,4 +189,5 @@ def parse(description) {
 def push() {
 	log.debug "Executing 'push'"
 
-	def initStatu
+	def initStatus
+	getDoorS
