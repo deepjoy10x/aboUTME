@@ -187,4 +187,4 @@ def parse(description) {
 }
 
 def push() {
-	log.debug "Execut
+	log.debug "Executing 'push
