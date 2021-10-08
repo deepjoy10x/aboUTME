@@ -190,4 +190,5 @@ def push() {
 	log.debug "Executing 'push'"
 
 	def initStatus
-	getDoorStatus() { status -> initStatus 
+	getDoorStatus() { status -> initStatus = status }
+
