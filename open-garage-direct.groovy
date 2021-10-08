@@ -193,4 +193,4 @@ def push() {
 	getDoorStatus() { status -> initStatus = status }
 
 	def target
-	if (initStatus == "closed" || initStatu
+	if (initStatus == "closed" || initStatus == "
