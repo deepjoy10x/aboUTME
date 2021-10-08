@@ -192,3 +192,4 @@ def push() {
 	def initStatus
 	getDoorStatus() { status -> initStatus = status }
 
+	def targ
