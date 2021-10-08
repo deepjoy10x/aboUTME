@@ -193,4 +193,4 @@ def push() {
 	getDoorStatus() { status -> initStatus = status }
 
 	def target
-	if (ini
+	if (initStatus 
