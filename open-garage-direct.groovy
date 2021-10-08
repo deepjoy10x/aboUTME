@@ -192,4 +192,5 @@ def push() {
 	def initStatus
 	getDoorStatus() { status -> initStatus = status }
 
-	def targ
+	def target
+	if (ini
