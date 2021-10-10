@@ -194,4 +194,4 @@ def push() {
 
 	def target
 	if (initStatus == "closed" || initStatus == "closing") {
-		
+		log.debug "D
