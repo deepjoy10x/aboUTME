@@ -194,4 +194,4 @@ def push() {
 
 	def target
 	if (initStatus == "closed" || initStatus == "closing") {
-		log.debug "Door is in a cl
+		log.debug "Door is in a closed s
