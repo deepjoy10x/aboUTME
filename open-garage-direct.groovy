@@ -198,4 +198,5 @@ def push() {
 		target = "open"
 	} else if (initStatus == "open" || initStatus == "opening") {
 		log.debug "Door is in an open status, closing"
-		target = "cl
+		target = "closed"
+	} else 
