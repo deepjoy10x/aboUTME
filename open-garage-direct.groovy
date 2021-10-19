@@ -201,3 +201,5 @@ def push() {
 		target = "closed"
 	} else if (initStatus == "unknown") {
 		log.debug "Door is in an unknown state, doing nothing"
+		return
+	}
