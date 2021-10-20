@@ -203,3 +203,5 @@ def push() {
 		log.debug "Door is in an unknown state, doing nothing"
 		return
 	}
+
+	flipDoo
