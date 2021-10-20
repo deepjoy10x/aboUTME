@@ -205,4 +205,6 @@ def push() {
 	}
 
 	flipDoor()
-	refreshUntil(
+	refreshUntil(target)
+}
+
