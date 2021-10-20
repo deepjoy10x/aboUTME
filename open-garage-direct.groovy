@@ -204,4 +204,5 @@ def push() {
 		return
 	}
 
-	flipDoo
+	flipDoor()
+	r
