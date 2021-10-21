@@ -208,4 +208,5 @@ def push() {
 	refreshUntil(target)
 }
 
-def poll(
+def poll() {
+	log.d
