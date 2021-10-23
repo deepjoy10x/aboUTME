@@ -218,4 +218,4 @@ def refresh() {
 }
 
 def checkRefresh() {
-	s
+	switch (r
