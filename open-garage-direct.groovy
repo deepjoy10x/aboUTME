@@ -217,4 +217,5 @@ def refresh() {
 	doRefresh()
 }
 
-def checkR
+def checkRefresh() {
+	s
