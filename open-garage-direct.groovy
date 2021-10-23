@@ -214,4 +214,6 @@ def poll() {
 }
 
 def refresh() {
-	doRef
+	doRefresh()
+}
+
