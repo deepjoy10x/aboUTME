@@ -220,4 +220,4 @@ def refresh() {
 def checkRefresh() {
 	switch (refresh_rate.toLowerCase()) {
 	case "disabled":
-		unsch
+		unschedule(d
