@@ -218,4 +218,4 @@ def refresh() {
 }
 
 def checkRefresh() {
-	switch (r
+	switch (refresh_rate.
