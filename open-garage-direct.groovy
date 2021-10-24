@@ -219,4 +219,5 @@ def refresh() {
 
 def checkRefresh() {
 	switch (refresh_rate.toLowerCase()) {
-	case 
+	case "disabled":
+	
