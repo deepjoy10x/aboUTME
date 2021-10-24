@@ -218,4 +218,5 @@ def refresh() {
 }
 
 def checkRefresh() {
-	switch (refresh_rate.toLowerCase())
+	switch (refresh_rate.toLowerCase()) {
+	case 
