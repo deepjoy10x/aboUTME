@@ -222,4 +222,5 @@ def checkRefresh() {
 	case "disabled":
 		unschedule(doRefresh)
 		doRefresh()
-		
+		break
+	
