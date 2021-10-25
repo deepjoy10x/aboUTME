@@ -223,4 +223,4 @@ def checkRefresh() {
 		unschedule(doRefresh)
 		doRefresh()
 		break
-	
+	case "e
