@@ -223,4 +223,4 @@ def checkRefresh() {
 		unschedule(doRefresh)
 		doRefresh()
 		break
-	case "every 5
+	case "every 5 minutes
