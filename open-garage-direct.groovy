@@ -224,4 +224,4 @@ def checkRefresh() {
 		doRefresh()
 		break
 	case "every 5 minutes":
-		runEve
+		runEvery5Minute
