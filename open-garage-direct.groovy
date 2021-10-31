@@ -226,4 +226,4 @@ def checkRefresh() {
 	case "every 5 minutes":
 		runEvery5Minutes(doRefresh)
 		break
-	case "every 10
+	case "every 10 minutes":
