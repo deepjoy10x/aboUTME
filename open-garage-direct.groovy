@@ -228,4 +228,5 @@ def checkRefresh() {
 		break
 	case "every 10 minutes":
 		runEvery10Minutes(doRefresh)
-		
+		break
+	case "e
