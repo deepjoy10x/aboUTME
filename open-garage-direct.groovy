@@ -236,4 +236,5 @@ def checkRefresh() {
 		runEvery30Minutes(doRefresh)
 		break
 	case "every hour":
-		runEvery1Hour(doRefr
+		runEvery1Hour(doRefresh)
+		br
