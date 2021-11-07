@@ -240,4 +240,4 @@ def checkRefresh() {
 		break
 	case "every minute":
 	default:
-		
+		runEvery
