@@ -245,4 +245,5 @@ def checkRefresh() {
 	}
 }
 
-def do
+def doRefresh() {
+	
