@@ -243,3 +243,6 @@ def checkRefresh() {
 		runEvery1Minute(doRefresh)
 		break
 	}
+}
+
+def do
