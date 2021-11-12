@@ -248,4 +248,4 @@ def checkRefresh() {
 def doRefresh() {
 	log.debug "Refreshing Door State"
 
-	getD
+	getDoorSta
