@@ -246,4 +246,4 @@ def checkRefresh() {
 }
 
 def doRefresh() {
-	
+	log.debug "Refre
