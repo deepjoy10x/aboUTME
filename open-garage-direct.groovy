@@ -246,4 +246,4 @@ def checkRefresh() {
 }
 
 def doRefresh() {
-	log.debug "Refreshing D
+	log.debug "Refreshing Door Stat
