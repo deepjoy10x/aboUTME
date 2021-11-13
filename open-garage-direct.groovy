@@ -249,4 +249,4 @@ def doRefresh() {
 	log.debug "Refreshing Door State"
 
 	getDoorStatus() { status ->
-		setDoorS
+		setDoorState(status
