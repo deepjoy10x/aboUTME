@@ -250,4 +250,4 @@ def doRefresh() {
 
 	getDoorStatus() { status ->
 		setDoorState(status)
-		log.debug "Door Status: $st
+		log.debug "Door Status: $status"
