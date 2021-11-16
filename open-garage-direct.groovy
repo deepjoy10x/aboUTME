@@ -251,3 +251,7 @@ def doRefresh() {
 	getDoorStatus() { status ->
 		setDoorState(status)
 		log.debug "Door Status: $status"
+	}
+}
+
+def af
