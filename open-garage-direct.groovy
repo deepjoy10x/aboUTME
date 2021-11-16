@@ -255,4 +255,4 @@ def doRefresh() {
 }
 
 def afterForceRefresh(status, startTime) {
-	def time = (now() -
+	def time = (now() - startTime
