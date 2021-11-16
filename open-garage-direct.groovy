@@ -254,4 +254,4 @@ def doRefresh() {
 	}
 }
 
-def afterForceRefr
+def afterForceRefresh(status, start
