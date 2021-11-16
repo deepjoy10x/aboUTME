@@ -254,4 +254,5 @@ def doRefresh() {
 	}
 }
 
-def afterForceRefresh(status, start
+def afterForceRefresh(status, startTime) {
+	de
