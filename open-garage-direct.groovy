@@ -256,4 +256,4 @@ def doRefresh() {
 
 def afterForceRefresh(status, startTime) {
 	def time = (now() - startTime) / 1000
-	log.debug
+	log.debug "Final 
