@@ -261,4 +261,4 @@ def afterForceRefresh(status, startTime) {
 }
 
 def forceRefreshUntil(data) {
-	def timestam
+	def timestamp = now()
