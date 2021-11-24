@@ -259,3 +259,5 @@ def afterForceRefresh(status, startTime) {
 	log.debug "Final Door Status: $status, took $time seconds"
 	setDoorState(status)
 }
+
+def fo
