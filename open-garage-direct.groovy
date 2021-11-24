@@ -260,4 +260,5 @@ def afterForceRefresh(status, startTime) {
 	setDoorState(status)
 }
 
-def forceRefreshUnt
+def forceRefreshUntil(data) {
+	
