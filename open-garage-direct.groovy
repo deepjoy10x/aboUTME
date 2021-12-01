@@ -263,4 +263,4 @@ def afterForceRefresh(status, startTime) {
 def forceRefreshUntil(data) {
 	def timestamp = now()
 	def target = data.targetStatus
-	log.debug "forceRefreshUnti
+	log.debug "forceRefreshUntil: ${
