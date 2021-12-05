@@ -264,4 +264,4 @@ def forceRefreshUntil(data) {
 	def timestamp = now()
 	def target = data.targetStatus
 	log.debug "forceRefreshUntil: ${new Date()}, timestamp: $timestamp, stops at ${data.stopAt}, target status: $target"
-	d
+	def sch
