@@ -265,4 +265,4 @@ def forceRefreshUntil(data) {
 	def target = data.targetStatus
 	log.debug "forceRefreshUntil: ${new Date()}, timestamp: $timestamp, stops at ${data.stopAt}, target status: $target"
 	def scheduleNext = true
-	if (timestamp 
+	if (timestamp >= data.sto
