@@ -268,4 +268,5 @@ def forceRefreshUntil(data) {
 	if (timestamp >= data.stopAt) {
 		log.debug "Stopping refreshing..."
 		getDoorStatus() { status ->
-			afterForceRefresh(status, data.start
+			afterForceRefresh(status, data.startTime)
+		}
