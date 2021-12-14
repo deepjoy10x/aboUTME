@@ -271,4 +271,6 @@ def forceRefreshUntil(data) {
 			afterForceRefresh(status, data.startTime)
 		}
 		scheduleNext = false
-		retu
+		return
+	}
+	get
