@@ -270,3 +270,4 @@ def forceRefreshUntil(data) {
 		getDoorStatus() { status ->
 			afterForceRefresh(status, data.startTime)
 		}
+		schedule
