@@ -273,4 +273,5 @@ def forceRefreshUntil(data) {
 		scheduleNext = false
 		return
 	}
-	getDoorStatus() { statu
+	getDoorStatus() { status ->
+		
