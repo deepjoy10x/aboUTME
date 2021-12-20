@@ -274,4 +274,4 @@ def forceRefreshUntil(data) {
 		return
 	}
 	getDoorStatus() { status ->
-		log.debug "forceRefreshUntil: get door
+		log.debug "forceRefreshUntil: get door status: $
