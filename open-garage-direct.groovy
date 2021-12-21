@@ -276,4 +276,4 @@ def forceRefreshUntil(data) {
 	getDoorStatus() { status ->
 		log.debug "forceRefreshUntil: get door status: $status"
 		if (status == target) {
-			log.debug "Got target status $status, stopp
+			log.debug "Got target status $status, stopping refre
