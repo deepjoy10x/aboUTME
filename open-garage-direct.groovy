@@ -277,4 +277,4 @@ def forceRefreshUntil(data) {
 		log.debug "forceRefreshUntil: get door status: $status"
 		if (status == target) {
 			log.debug "Got target status $status, stopping refreshing..."
-			afterForceRefresh(statu
+			afterForceRefresh(status, data.st
