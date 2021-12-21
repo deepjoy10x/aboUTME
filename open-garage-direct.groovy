@@ -278,4 +278,4 @@ def forceRefreshUntil(data) {
 		if (status == target) {
 			log.debug "Got target status $status, stopping refreshing..."
 			afterForceRefresh(status, data.startTime)
-			scheduleNe
+			scheduleNext = 
