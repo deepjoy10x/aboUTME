@@ -280,3 +280,6 @@ def forceRefreshUntil(data) {
 			afterForceRefresh(status, data.startTime)
 			scheduleNext = false
 			return
+		}
+	}
+	if
