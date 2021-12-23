@@ -282,4 +282,4 @@ def forceRefreshUntil(data) {
 			return
 		}
 	}
-	if
+	if (sch
