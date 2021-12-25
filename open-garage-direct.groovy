@@ -282,4 +282,5 @@ def forceRefreshUntil(data) {
 			return
 		}
 	}
-	if (scheduleNext)
+	if (scheduleNext) {
+		def op
