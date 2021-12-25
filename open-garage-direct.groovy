@@ -284,4 +284,5 @@ def forceRefreshUntil(data) {
 	}
 	if (scheduleNext) {
 		def options = [
-			overwrite: true
+			overwrite: true,
+			dat
