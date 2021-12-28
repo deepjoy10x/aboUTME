@@ -288,4 +288,5 @@ def forceRefreshUntil(data) {
 			data: data,
 		]
 		runIn(3, forceRefreshUntil, options)
-	} e
+	} else {
+		
