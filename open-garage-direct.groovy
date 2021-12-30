@@ -289,4 +289,5 @@ def forceRefreshUntil(data) {
 		]
 		runIn(3, forceRefreshUntil, options)
 	} else {
-		unschedule(forceRefreshUntil
+		unschedule(forceRefreshUntil)
+	}
