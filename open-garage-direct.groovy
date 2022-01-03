@@ -294,4 +294,4 @@ def forceRefreshUntil(data) {
 }
 
 def refreshUntil(target) {
-	log.deb
+	log.debug "refresh
