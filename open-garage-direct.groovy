@@ -294,4 +294,5 @@ def forceRefreshUntil(data) {
 }
 
 def refreshUntil(target) {
-	log.debug "refreshUntil: $tar
+	log.debug "refreshUntil: $target"
+	def maxM
