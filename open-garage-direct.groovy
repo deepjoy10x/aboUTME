@@ -294,4 +294,4 @@ def forceRefreshUntil(data) {
 }
 
 def refreshUntil(target) {
-	log.debug "refresh
+	log.debug "refreshUntil: $tar
