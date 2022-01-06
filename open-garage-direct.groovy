@@ -299,4 +299,4 @@ def refreshUntil(target) {
 	def timestamp = now() + 60 * 1000 * maxMin
 	def data = [
 		startTime: now(),
-	
+		stopAt: t
