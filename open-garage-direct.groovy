@@ -297,4 +297,5 @@ def refreshUntil(target) {
 	log.debug "refreshUntil: $target"
 	def maxMin = 5
 	def timestamp = now() + 60 * 1000 * maxMin
-	def data
+	def data = [
+		start
