@@ -300,4 +300,4 @@ def refreshUntil(target) {
 	def data = [
 		startTime: now(),
 		stopAt: timestamp,
-		targetStatus: t
+		targetStatus: target,
