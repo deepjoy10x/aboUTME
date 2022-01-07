@@ -302,4 +302,4 @@ def refreshUntil(target) {
 		stopAt: timestamp,
 		targetStatus: target,
 	]
-	force
+	forceRefreshUnt
