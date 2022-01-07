@@ -301,3 +301,5 @@ def refreshUntil(target) {
 		startTime: now(),
 		stopAt: timestamp,
 		targetStatus: target,
+	]
+	force
