@@ -306,4 +306,5 @@ def refreshUntil(target) {
 }
 
 def on() {
-	log.debug "Execut
+	log.debug "Executing 'on'"
+
