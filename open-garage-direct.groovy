@@ -312,4 +312,4 @@ def on() {
 }
 
 def off() {
-	log.debug "Ex
+	log.debug "Executing 'of
