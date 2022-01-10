@@ -318,4 +318,4 @@ def off() {
 }
 
 def open() {
-	log.de
+	log.debug "Openin
