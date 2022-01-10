@@ -318,4 +318,4 @@ def off() {
 }
 
 def open() {
-	log.debug "Openin
+	log.debug "Opening Door"
