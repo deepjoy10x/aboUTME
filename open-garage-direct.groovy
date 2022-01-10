@@ -319,3 +319,5 @@ def off() {
 
 def open() {
 	log.debug "Opening Door"
+
+	openDoor()
