@@ -321,3 +321,4 @@ def open() {
 	log.debug "Opening Door"
 
 	openDoor()
+	setDoorS
