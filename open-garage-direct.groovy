@@ -317,4 +317,5 @@ def off() {
 	close()
 }
 
-def open()
+def open() {
+	log.de
