@@ -321,4 +321,5 @@ def open() {
 	log.debug "Opening Door"
 
 	openDoor()
-	setDoorState("ope
+	setDoorState("opening")
+	re
