@@ -325,4 +325,5 @@ def open() {
 	refreshUntil("open")
 }
 
-def c
+def close() {
+	
