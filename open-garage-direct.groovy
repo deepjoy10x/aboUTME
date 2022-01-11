@@ -326,4 +326,4 @@ def open() {
 }
 
 def close() {
-	
+	log.de
