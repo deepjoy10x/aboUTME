@@ -322,4 +322,5 @@ def open() {
 
 	openDoor()
 	setDoorState("opening")
-	refreshUntil(
+	refreshUntil("open")
+}
