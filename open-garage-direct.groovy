@@ -326,4 +326,4 @@ def open() {
 }
 
 def close() {
-	log.debug "Clos
+	log.debug "Closing D
