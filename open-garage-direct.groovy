@@ -328,4 +328,4 @@ def open() {
 def close() {
 	log.debug "Closing Door"
 
-	
+	closeDoo
