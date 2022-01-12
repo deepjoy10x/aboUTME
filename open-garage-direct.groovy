@@ -330,4 +330,7 @@ def close() {
 
 	closeDoor()
 	setDoorState("closing")
-	refreshUntil("c
+	refreshUntil("closed")
+}
+
+def
