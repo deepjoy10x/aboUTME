@@ -329,4 +329,5 @@ def close() {
 	log.debug "Closing Door"
 
 	closeDoor()
-	setDoorState("closing"
+	setDoorState("closing")
+	refres
