@@ -333,4 +333,4 @@ def close() {
 	refreshUntil("closed")
 }
 
-def getDoorStatus(cal
+def getDoorStatus(callback = {}
