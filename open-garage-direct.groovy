@@ -333,4 +333,4 @@ def close() {
 	refreshUntil("closed")
 }
 
-def
+def getDoorSta
