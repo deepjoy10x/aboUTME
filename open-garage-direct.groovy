@@ -334,4 +334,5 @@ def close() {
 }
 
 def getDoorStatus(callback = {}) {
-	callApiGet("/jc") {
+	callApiGet("/jc") { resp ->
+	
