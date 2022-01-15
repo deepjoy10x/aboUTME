@@ -337,4 +337,5 @@ def getDoorStatus(callback = {}) {
 	callApiGet("/jc") { resp ->
 		def value = resp.data.door
 		def state
-		switch(v
+		switch(value) {
+		case 0:
