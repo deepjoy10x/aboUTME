@@ -339,4 +339,4 @@ def getDoorStatus(callback = {}) {
 		def state
 		switch(value) {
 		case 0:
-			state =
+			state = "close
