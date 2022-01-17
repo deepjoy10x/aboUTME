@@ -341,4 +341,4 @@ def getDoorStatus(callback = {}) {
 		case 0:
 			state = "closed"
 			break
-		c
+		case 1:
