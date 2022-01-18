@@ -342,4 +342,4 @@ def getDoorStatus(callback = {}) {
 			state = "closed"
 			break
 		case 1:
-			sta
+			state = "ope
