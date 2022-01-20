@@ -346,3 +346,6 @@ def getDoorStatus(callback = {}) {
 			break
 		default:
 			state = "unknown"
+		}
+
+		de
