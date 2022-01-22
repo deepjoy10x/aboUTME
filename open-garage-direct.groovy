@@ -348,4 +348,4 @@ def getDoorStatus(callback = {}) {
 			state = "unknown"
 		}
 
-		de
+		def c
