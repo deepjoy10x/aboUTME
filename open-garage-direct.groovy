@@ -348,4 +348,4 @@ def getDoorStatus(callback = {}) {
 			state = "unknown"
 		}
 
-		def carValue = 
+		def carValue = resp.data
