@@ -350,4 +350,4 @@ def getDoorStatus(callback = {}) {
 
 		def carValue = resp.data.vehicle
 		def carState
-		switc
+		switch(carValue
