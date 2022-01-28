@@ -351,4 +351,5 @@ def getDoorStatus(callback = {}) {
 		def carValue = resp.data.vehicle
 		def carState
 		switch(carValue) {
+		case 0:
 		
