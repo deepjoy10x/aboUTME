@@ -352,4 +352,4 @@ def getDoorStatus(callback = {}) {
 		def carState
 		switch(carValue) {
 		case 0:
-			carState = 
+			carState = "absent
