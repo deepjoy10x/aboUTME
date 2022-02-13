@@ -357,3 +357,5 @@ def getDoorStatus(callback = {}) {
 		case 1:
 			carState = "present"
 			break
+		default:
+	
