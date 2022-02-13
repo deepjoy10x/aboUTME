@@ -355,4 +355,5 @@ def getDoorStatus(callback = {}) {
 			carState = "absent"
 			break
 		case 1:
-			carState = "prese
+			carState = "present"
+			break
