@@ -358,4 +358,6 @@ def getDoorStatus(callback = {}) {
 			carState = "present"
 			break
 		default:
-			carState = "unknow
+			carState = "unknown"
+		}
+	
