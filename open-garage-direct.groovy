@@ -360,4 +360,5 @@ def getDoorStatus(callback = {}) {
 		default:
 			carState = "unknown"
 		}
-		sendEve
+		sendEvent(
+			name:
