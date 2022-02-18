@@ -361,4 +361,4 @@ def getDoorStatus(callback = {}) {
 			carState = "unknown"
 		}
 		sendEvent(
-			name:
+			name: "carStatus"
