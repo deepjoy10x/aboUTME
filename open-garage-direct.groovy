@@ -363,4 +363,5 @@ def getDoorStatus(callback = {}) {
 		sendEvent(
 			name: "carStatus",
 			value: carState,
-			displayed: tr
+			displayed: true,
+			d
