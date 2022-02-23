@@ -364,4 +364,7 @@ def getDoorStatus(callback = {}) {
 			name: "carStatus",
 			value: carState,
 			displayed: true,
-			descriptionText: "Car is $carState"
+			descriptionText: "Car is $carState",
+		)
+
+	
