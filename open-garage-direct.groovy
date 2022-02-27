@@ -367,4 +367,4 @@ def getDoorStatus(callback = {}) {
 			descriptionText: "Car is $carState",
 		)
 
-		def dist
+		def dist = resp.d
