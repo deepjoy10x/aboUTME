@@ -369,4 +369,4 @@ def getDoorStatus(callback = {}) {
 
 		def dist = resp.data.dist
 		sendEvent(
-			nam
+			name: "dis
