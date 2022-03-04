@@ -371,4 +371,4 @@ def getDoorStatus(callback = {}) {
 		sendEvent(
 			name: "distance",
 			value: dist,
-			displ
+			displayed: t
