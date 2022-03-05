@@ -373,3 +373,6 @@ def getDoorStatus(callback = {}) {
 			value: dist,
 			displayed: true,
 			unit: "cm",
+		)
+
+		de
