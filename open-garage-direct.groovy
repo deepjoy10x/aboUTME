@@ -372,4 +372,4 @@ def getDoorStatus(callback = {}) {
 			name: "distance",
 			value: dist,
 			displayed: true,
-			un
+			unit: "cm",
