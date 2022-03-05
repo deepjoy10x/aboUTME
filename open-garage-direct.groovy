@@ -375,4 +375,4 @@ def getDoorStatus(callback = {}) {
 			unit: "cm",
 		)
 
-		de
+		def rcnt = 
