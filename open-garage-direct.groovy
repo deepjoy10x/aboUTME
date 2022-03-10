@@ -376,4 +376,4 @@ def getDoorStatus(callback = {}) {
 		)
 
 		def rcnt = resp.data.rcnt
-		sen
+		sendEvent(
