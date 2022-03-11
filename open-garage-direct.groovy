@@ -377,4 +377,4 @@ def getDoorStatus(callback = {}) {
 
 		def rcnt = resp.data.rcnt
 		sendEvent(
-			name: "
+			name: "readCount",
