@@ -380,4 +380,4 @@ def getDoorStatus(callback = {}) {
 			name: "readCount",
 			value: rcnt,
 			displayed: true,
-			descriptionTe
+			descriptionText: "Read co
