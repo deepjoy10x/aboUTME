@@ -383,4 +383,4 @@ def getDoorStatus(callback = {}) {
 			descriptionText: "Read count is $rcnt"
 		)
 
-		l
+		log.debug "g
