@@ -383,4 +383,4 @@ def getDoorStatus(callback = {}) {
 			descriptionText: "Read count is $rcnt"
 		)
 
-		log.debug "getDoorStatus: value = $value, state = $state, carValue = $carVal
+		log.debug "getDoorStatus: value = $value, state = $state, carValue = $carValue, carSt
