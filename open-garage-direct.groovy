@@ -384,4 +384,4 @@ def getDoorStatus(callback = {}) {
 		)
 
 		log.debug "getDoorStatus: value = $value, state = $state, carValue = $carValue, carState = $carState"
-	
+		callbac
