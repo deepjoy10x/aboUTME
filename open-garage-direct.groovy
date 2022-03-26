@@ -388,4 +388,4 @@ def getDoorStatus(callback = {}) {
 	}
 }
 
-d
+def openDoor
