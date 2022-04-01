@@ -389,4 +389,5 @@ def getDoorStatus(callback = {}) {
 }
 
 def openDoor() {
-	def bo
+	def body = [
+		
