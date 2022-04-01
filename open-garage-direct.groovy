@@ -391,4 +391,6 @@ def getDoorStatus(callback = {}) {
 def openDoor() {
 	def body = [
 		dkey: device_key,
-		o
+		open: 1,
+	]
+	cal
