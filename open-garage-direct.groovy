@@ -393,4 +393,4 @@ def openDoor() {
 		dkey: device_key,
 		open: 1,
 	]
-	callApiGet("/cc", body) { 
+	callApiGet("/cc", body) { resp ->
