@@ -394,4 +394,6 @@ def openDoor() {
 		open: 1,
 	]
 	callApiGet("/cc", body) { resp ->
-		// if error, do 
+		// if error, do something?
+	}
+}
