@@ -397,3 +397,5 @@ def openDoor() {
 		// if error, do something?
 	}
 }
+
+def closeDoor()
