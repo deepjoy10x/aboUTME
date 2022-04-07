@@ -398,4 +398,5 @@ def openDoor() {
 	}
 }
 
-def closeDoor()
+def closeDoor() {
+	def body
