@@ -400,4 +400,4 @@ def openDoor() {
 
 def closeDoor() {
 	def body = [
-		dkey: de
+		dkey: device_key,
