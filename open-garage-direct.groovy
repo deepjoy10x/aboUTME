@@ -402,4 +402,5 @@ def closeDoor() {
 	def body = [
 		dkey: device_key,
 		close: 1,
-	
+	]
+	callAp
