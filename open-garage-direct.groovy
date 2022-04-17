@@ -403,4 +403,5 @@ def closeDoor() {
 		dkey: device_key,
 		close: 1,
 	]
-	callApiGet("/cc", body) { resp 
+	callApiGet("/cc", body) { resp ->
+		// 
