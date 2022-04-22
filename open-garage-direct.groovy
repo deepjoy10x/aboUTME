@@ -408,4 +408,5 @@ def closeDoor() {
 	}
 }
 
-def flipDoor()
+def flipDoor() {
+	def bod
