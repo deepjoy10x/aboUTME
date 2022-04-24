@@ -411,3 +411,4 @@ def closeDoor() {
 def flipDoor() {
 	def body = [
 		dkey: device_key,
+		click: 1,
