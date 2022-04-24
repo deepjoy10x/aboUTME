@@ -409,4 +409,5 @@ def closeDoor() {
 }
 
 def flipDoor() {
-	def bod
+	def body = [
+		dk
