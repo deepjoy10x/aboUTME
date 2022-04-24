@@ -410,4 +410,4 @@ def closeDoor() {
 
 def flipDoor() {
 	def body = [
-		dkey: devic
+		dkey: device_key,
