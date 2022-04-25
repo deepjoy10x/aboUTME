@@ -413,4 +413,4 @@ def flipDoor() {
 		dkey: device_key,
 		click: 1,
 	]
-	callApiGet("/c
+	callApiGet("/cc", body
