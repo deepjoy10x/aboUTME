@@ -418,4 +418,4 @@ def flipDoor() {
 	}
 }
 
-def setConta
+def setContactSensorSt
