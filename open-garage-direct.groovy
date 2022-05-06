@@ -419,4 +419,4 @@ def flipDoor() {
 }
 
 def setContactSensorState(status) {
-	/
+	// Sync 
