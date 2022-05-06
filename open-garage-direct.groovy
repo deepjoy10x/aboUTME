@@ -418,4 +418,5 @@ def flipDoor() {
 	}
 }
 
-def setContactSensorState(st
+def setContactSensorState(status) {
+	/
