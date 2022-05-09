@@ -420,4 +420,5 @@ def flipDoor() {
 
 def setContactSensorState(status) {
 	// Sync contact sensor
-	if (status == "open" || status ==
+	if (status == "open" || status == "opening") {
+		s
