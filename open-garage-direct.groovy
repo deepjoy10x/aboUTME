@@ -422,4 +422,4 @@ def setContactSensorState(status) {
 	// Sync contact sensor
 	if (status == "open" || status == "opening") {
 		sendEvent(
-			na
+			name: "c
