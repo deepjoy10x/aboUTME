@@ -423,4 +423,4 @@ def setContactSensorState(status) {
 	if (status == "open" || status == "opening") {
 		sendEvent(
 			name: "contact",
-		
+			value: "o
