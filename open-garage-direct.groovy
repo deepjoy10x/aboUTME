@@ -425,4 +425,5 @@ def setContactSensorState(status) {
 			name: "contact",
 			value: "open",
 			displayed: true,
-			descriptionText: "Contact is open"
+			descriptionText: "Contact is open",
+		)
