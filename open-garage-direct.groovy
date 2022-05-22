@@ -427,3 +427,4 @@ def setContactSensorState(status) {
 			displayed: true,
 			descriptionText: "Contact is open",
 		)
+		sendEve
