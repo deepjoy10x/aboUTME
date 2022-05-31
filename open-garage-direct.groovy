@@ -433,4 +433,4 @@ def setContactSensorState(status) {
 			displayed: true,
 			descriptionText: "Switch is on",
 		)
-	} else 
+	} else if (status ==
