@@ -434,4 +434,5 @@ def setContactSensorState(status) {
 			descriptionText: "Switch is on",
 		)
 	} else if (status == "closed" || status == "closing") {
-		sendEven
+		sendEvent(
+			na
