@@ -435,4 +435,4 @@ def setContactSensorState(status) {
 		)
 	} else if (status == "closed" || status == "closing") {
 		sendEvent(
-			na
+			name: "c
