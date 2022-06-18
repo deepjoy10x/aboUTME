@@ -438,3 +438,4 @@ def setContactSensorState(status) {
 			name: "contact",
 			value: "closed",
 			displayed: true,
+			descri
