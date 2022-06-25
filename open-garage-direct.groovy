@@ -442,4 +442,4 @@ def setContactSensorState(status) {
 		)
 		sendEvent(
 			name: "switch",
-	
+			value: "off"
