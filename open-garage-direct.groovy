@@ -441,4 +441,5 @@ def setContactSensorState(status) {
 			descriptionText: "Contact is closed",
 		)
 		sendEvent(
-			nam
+			name: "switch",
+	
