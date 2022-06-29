@@ -444,4 +444,4 @@ def setContactSensorState(status) {
 			name: "switch",
 			value: "off",
 			displayed: true,
-			descriptionText: "Switch
+			descriptionText: "Switch is off",
