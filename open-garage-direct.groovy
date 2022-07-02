@@ -449,4 +449,4 @@ def setContactSensorState(status) {
 	}
 }
 
-def setDoorSt
+def setDoorState(s
