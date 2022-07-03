@@ -450,4 +450,5 @@ def setContactSensorState(status) {
 }
 
 def setDoorState(status) {
-	sendEv
+	sendEvent(
+		nam
