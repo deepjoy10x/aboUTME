@@ -453,4 +453,5 @@ def setDoorState(status) {
 	sendEvent(
 		name: "door",
 		value: status,
-		displayed: t
+		displayed: true,
+		d
