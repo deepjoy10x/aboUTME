@@ -452,3 +452,4 @@ def setContactSensorState(status) {
 def setDoorState(status) {
 	sendEvent(
 		name: "door",
+		valu
