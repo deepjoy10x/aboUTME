@@ -456,4 +456,4 @@ def setDoorState(status) {
 		displayed: true,
 		descriptionText: "Door is $status",
 	)
-	setContactSens
+	setContactSensorState(stat
