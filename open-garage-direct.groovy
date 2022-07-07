@@ -454,4 +454,6 @@ def setDoorState(status) {
 		name: "door",
 		value: status,
 		displayed: true,
-		descriptionText: "Door is $status
+		descriptionText: "Door is $status",
+	)
+	setC
