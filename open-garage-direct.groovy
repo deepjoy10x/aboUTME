@@ -459,4 +459,4 @@ def setDoorState(status) {
 	setContactSensorState(status)
 }
 
-def callApiGe
+def callApiGet(apipath, 
