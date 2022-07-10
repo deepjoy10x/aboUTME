@@ -460,4 +460,4 @@ def setDoorState(status) {
 }
 
 def callApiGet(apipath, callback) {
-	return callApiGet(apipath, nul
+	return callApiGet(apipath, null, callbac
