@@ -463,4 +463,5 @@ def callApiGet(apipath, callback) {
 	return callApiGet(apipath, null, callback)
 }
 
-def callApiGet(apipath, query, callback)
+def callApiGet(apipath, query, callback) {
+	def h
