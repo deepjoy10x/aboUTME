@@ -464,4 +464,5 @@ def callApiGet(apipath, callback) {
 }
 
 def callApiGet(apipath, query, callback) {
-	def headers
+	def headers = []
+	i
