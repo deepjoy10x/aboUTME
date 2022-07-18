@@ -466,4 +466,5 @@ def callApiGet(apipath, callback) {
 def callApiGet(apipath, query, callback) {
 	def headers = []
 	if (http_auth != "") {
-		hea
+		headers = [
+			A
