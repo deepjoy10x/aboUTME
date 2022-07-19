@@ -470,4 +470,4 @@ def callApiGet(apipath, query, callback) {
 			Authorization: http_auth,
 		]
 	}
-	
+	def params = 
