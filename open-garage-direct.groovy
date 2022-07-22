@@ -471,4 +471,4 @@ def callApiGet(apipath, query, callback) {
 		]
 	}
 	def params = [
-		uri: h
+		uri: http_prefix,
