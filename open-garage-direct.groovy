@@ -474,4 +474,7 @@ def callApiGet(apipath, query, callback) {
 		uri: http_prefix,
 		path: apipath,
 		query: query,
-		headers: head
+		headers: headers,
+	]
+
+	lo
