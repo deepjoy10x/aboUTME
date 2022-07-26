@@ -477,4 +477,4 @@ def callApiGet(apipath, query, callback) {
 		headers: headers,
 	]
 
-	lo
+	log.debug "h
