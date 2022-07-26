@@ -477,4 +477,6 @@ def callApiGet(apipath, query, callback) {
 		headers: headers,
 	]
 
-	log.debug "http get params: $par
+	log.debug "http get params: $params"
+
+	tr
