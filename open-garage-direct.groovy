@@ -477,4 +477,4 @@ def callApiGet(apipath, query, callback) {
 		headers: headers,
 	]
 
-	log.debug "h
+	log.debug "http get params:
