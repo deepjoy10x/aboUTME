@@ -481,4 +481,4 @@ def callApiGet(apipath, query, callback) {
 
 	try {
 		httpGet(params) { resp ->
-			log.debu
+			log.debug "resp
