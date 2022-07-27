@@ -480,4 +480,4 @@ def callApiGet(apipath, query, callback) {
 	log.debug "http get params: $params"
 
 	try {
-		httpGet(params
+		httpGet(params) { resp ->
