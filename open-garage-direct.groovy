@@ -484,4 +484,5 @@ def callApiGet(apipath, query, callback) {
 			log.debug "response data: ${resp.data}"
 			sendEvent(
 				name: "lastHttpStatus",
-				value: "succeeded"
+				value: "succeeded",
+				disp
