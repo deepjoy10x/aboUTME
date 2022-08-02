@@ -485,4 +485,4 @@ def callApiGet(apipath, query, callback) {
 			sendEvent(
 				name: "lastHttpStatus",
 				value: "succeeded",
-				disp
+				displayed: true
