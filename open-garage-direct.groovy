@@ -489,4 +489,5 @@ def callApiGet(apipath, query, callback) {
 				descriptionText: "HTTP request succeeded",
 			)
 			callback(resp)
-	
+		}
+	} c
