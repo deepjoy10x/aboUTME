@@ -491,4 +491,4 @@ def callApiGet(apipath, query, callback) {
 			callback(resp)
 		}
 	} catch (e) {
-		log.deb
+		log.debug "API E
