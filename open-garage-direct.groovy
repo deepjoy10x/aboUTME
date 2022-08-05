@@ -490,4 +490,4 @@ def callApiGet(apipath, query, callback) {
 			)
 			callback(resp)
 		}
-	} c
+	} catch (e) 
