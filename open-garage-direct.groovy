@@ -490,4 +490,5 @@ def callApiGet(apipath, query, callback) {
 			)
 			callback(resp)
 		}
-	} catch (e) 
+	} catch (e) {
+		log.deb
