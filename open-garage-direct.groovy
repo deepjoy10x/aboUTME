@@ -493,4 +493,5 @@ def callApiGet(apipath, query, callback) {
 	} catch (e) {
 		log.debug "API Error: $e"
 		setDoorState("unknown")
-		sendEven
+		sendEvent(
+			name
