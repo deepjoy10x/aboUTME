@@ -495,4 +495,5 @@ def callApiGet(apipath, query, callback) {
 		setDoorState("unknown")
 		sendEvent(
 			name: "lastHttpStatus",
-			value: "fail
+			value: "failed",
+			dis
