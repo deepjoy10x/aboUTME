@@ -496,4 +496,5 @@ def callApiGet(apipath, query, callback) {
 		sendEvent(
 			name: "lastHttpStatus",
 			value: "failed",
-			displayed: 
+			displayed: true,
+			d
