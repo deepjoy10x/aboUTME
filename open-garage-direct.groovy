@@ -498,3 +498,5 @@ def callApiGet(apipath, query, callback) {
 			value: "failed",
 			displayed: true,
 			descriptionText: "HTTP request failed",
+		)
+	}
