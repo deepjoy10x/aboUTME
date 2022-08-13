@@ -1,2 +1,3 @@
 /**
- *  Presence and Gara
+ *  Presence and Garage Door.
+ 
