@@ -1,4 +1,4 @@
 /**
  *  Presence and Garage Door.
  *
- *  Copyrig
+ *  Copyright 2016 Y
