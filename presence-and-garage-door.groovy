@@ -1,4 +1,4 @@
 /**
  *  Presence and Garage Door.
  *
- *  Co
+ *  Copyrig
