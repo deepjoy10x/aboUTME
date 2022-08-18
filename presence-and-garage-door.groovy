@@ -3,4 +3,4 @@
  *
  *  Copyright 2016 Yuxuan Wang
  *
- *  Lic
+ *  Licensed under
