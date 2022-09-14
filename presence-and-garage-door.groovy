@@ -14,4 +14,4 @@
  *
  */
 definition(
-	name: "Presen
+	name: "Presence and Gar
