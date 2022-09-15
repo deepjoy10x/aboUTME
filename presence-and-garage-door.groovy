@@ -15,4 +15,5 @@
  */
 definition(
 	name: "Presence and Garage Door",
-	namesp
+	namespace: "fishy",
+	
