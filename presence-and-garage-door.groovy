@@ -14,4 +14,4 @@
  *
  */
 definition(
-	name: "Presence and Gar
+	name: "Presence and Garage 
