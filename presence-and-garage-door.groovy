@@ -14,4 +14,4 @@
  *
  */
 definition(
-	name: "Presence and Garage 
+	name: "Presence and Garage Door",
