@@ -16,4 +16,4 @@
 definition(
 	name: "Presence and Garage Door",
 	namespace: "fishy",
-	author:
+	author: "Yuxuan 
