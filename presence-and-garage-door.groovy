@@ -17,4 +17,5 @@ definition(
 	name: "Presence and Garage Door",
 	namespace: "fishy",
 	author: "Yuxuan Wang",
-	description: "Use presence sensor to automate Garage Do
+	description: "Use presence sensor to automate Garage Door",
+	catego
