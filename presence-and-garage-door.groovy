@@ -18,4 +18,4 @@ definition(
 	namespace: "fishy",
 	author: "Yuxuan Wang",
 	description: "Use presence sensor to automate Garage Door",
-	catego
+	category: "Saf
