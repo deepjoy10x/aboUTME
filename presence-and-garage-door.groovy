@@ -19,4 +19,4 @@ definition(
 	author: "Yuxuan Wang",
 	description: "Use presence sensor to automate Garage Door",
 	category: "Safety & Security",
-	iconUrl
+	iconUrl: "https://
