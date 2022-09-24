@@ -20,4 +20,4 @@ definition(
 	description: "Use presence sensor to automate Garage Door",
 	category: "Safety & Security",
 	iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
-	ic
+	iconX2Url: "h
