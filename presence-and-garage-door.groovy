@@ -26,4 +26,5 @@ definition(
 
 
 preferences {
-	section("Garage
+	section("Garage Door") {
+		
