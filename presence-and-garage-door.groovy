@@ -28,4 +28,4 @@ definition(
 preferences {
 	section("Garage Door") {
 		input(
-	
+			"door",
