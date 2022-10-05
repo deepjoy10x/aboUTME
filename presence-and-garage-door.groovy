@@ -29,3 +29,4 @@ preferences {
 	section("Garage Door") {
 		input(
 			"door",
+			"c
