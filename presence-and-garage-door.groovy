@@ -29,4 +29,5 @@ preferences {
 	section("Garage Door") {
 		input(
 			"door",
-			"capability.garageDoorContro
+			"capability.garageDoorControl",
+			titl
