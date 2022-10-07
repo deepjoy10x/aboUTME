@@ -30,4 +30,4 @@ preferences {
 		input(
 			"door",
 			"capability.garageDoorControl",
-			title: "
+			title: "Which One?
