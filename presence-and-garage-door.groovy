@@ -33,4 +33,5 @@ preferences {
 			title: "Which One?",
 		)
 	}
-	section("Presence Sens
+	section("Presence Sensors") {
+		i
