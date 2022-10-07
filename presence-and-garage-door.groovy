@@ -30,4 +30,7 @@ preferences {
 		input(
 			"door",
 			"capability.garageDoorControl",
-			title: "Which One?
+			title: "Which One?",
+		)
+	}
+	section(
