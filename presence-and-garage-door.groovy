@@ -34,4 +34,5 @@ preferences {
 		)
 	}
 	section("Presence Sensors") {
-		i
+		input(
+			"ca
