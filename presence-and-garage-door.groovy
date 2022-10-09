@@ -35,4 +35,5 @@ preferences {
 	}
 	section("Presence Sensors") {
 		input(
-			"ca
+			"cars",
+			"c
