@@ -36,4 +36,4 @@ preferences {
 	section("Presence Sensors") {
 		input(
 			"cars",
-			"capability.presen
+			"capability.presenceSensor
