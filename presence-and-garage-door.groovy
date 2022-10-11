@@ -37,4 +37,5 @@ preferences {
 		input(
 			"cars",
 			"capability.presenceSensor",
-			title: "Cars?
+			title: "Cars?",
+			m
