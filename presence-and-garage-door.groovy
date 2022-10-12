@@ -38,4 +38,4 @@ preferences {
 			"cars",
 			"capability.presenceSensor",
 			title: "Cars?",
-			m
+			multiple: t
