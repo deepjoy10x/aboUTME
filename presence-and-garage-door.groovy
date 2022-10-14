@@ -42,4 +42,5 @@ preferences {
 		)
 	}
 	section("Real close threshold") {
-		inpu
+		input(
+			"s
