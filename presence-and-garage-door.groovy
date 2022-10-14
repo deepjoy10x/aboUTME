@@ -41,4 +41,4 @@ preferences {
 			multiple: true,
 		)
 	}
-	section("Real close thr
+	section("Real close threshold") {
