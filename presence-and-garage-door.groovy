@@ -44,3 +44,5 @@ preferences {
 	section("Real close threshold") {
 		input(
 			"seconds",
+			"number",
+		
