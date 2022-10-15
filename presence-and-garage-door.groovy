@@ -45,4 +45,4 @@ preferences {
 		input(
 			"seconds",
 			"number",
-			title: "S
+			title: "Seconds?",
