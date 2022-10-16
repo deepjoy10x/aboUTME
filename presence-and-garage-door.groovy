@@ -46,4 +46,4 @@ preferences {
 			"seconds",
 			"number",
 			title: "Seconds?",
-			required: 
+			required: false,
