@@ -47,3 +47,5 @@ preferences {
 			"number",
 			title: "Seconds?",
 			required: false,
+		)
+		
