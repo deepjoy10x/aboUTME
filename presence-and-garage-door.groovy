@@ -49,4 +49,4 @@ preferences {
 			required: false,
 		)
 		input(
-			"
+			"phone",
