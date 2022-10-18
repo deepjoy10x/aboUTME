@@ -50,3 +50,4 @@ preferences {
 		)
 		input(
 			"phone",
+			"text",
