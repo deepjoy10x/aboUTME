@@ -51,4 +51,4 @@ preferences {
 		input(
 			"phone",
 			"text",
-			titl
+			title: "Send SM
