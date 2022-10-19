@@ -51,4 +51,5 @@ preferences {
 		input(
 			"phone",
 			"text",
-			title: "Send SMS to this numb
+			title: "Send SMS to this number?",
+			r
