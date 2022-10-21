@@ -52,4 +52,4 @@ preferences {
 			"phone",
 			"text",
 			title: "Send SMS to this number?",
-			required: f
+			required: false,
