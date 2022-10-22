@@ -53,3 +53,5 @@ preferences {
 			"text",
 			title: "Send SMS to this number?",
 			required: false,
+		)
+		i
