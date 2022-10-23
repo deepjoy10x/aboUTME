@@ -54,4 +54,5 @@ preferences {
 			title: "Send SMS to this number?",
 			required: false,
 		)
-		i
+		input(
+			
