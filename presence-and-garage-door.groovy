@@ -56,4 +56,4 @@ preferences {
 		)
 		input(
 			"contact",
-			"capa
+			"capability.c
