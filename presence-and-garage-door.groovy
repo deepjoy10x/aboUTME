@@ -56,4 +56,4 @@ preferences {
 		)
 		input(
 			"contact",
-			"capability.c
+			"capability.contactSens
