@@ -56,4 +56,5 @@ preferences {
 		)
 		input(
 			"contact",
-			"capability.contactSens
+			"capability.contactSensor",
+			titl
