@@ -57,4 +57,4 @@ preferences {
 		input(
 			"contact",
 			"capability.contactSensor",
-			title: "Opti
+			title: "Optional helper
