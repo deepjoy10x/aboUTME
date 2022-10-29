@@ -61,3 +61,7 @@ preferences {
 			required: false,
 		)
 	}
+}
+
+
+def instal
