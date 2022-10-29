@@ -58,4 +58,6 @@ preferences {
 			"contact",
 			"capability.contactSensor",
 			title: "Optional helper contact sensor",
-			required: f
+			required: false,
+		)
+	}
