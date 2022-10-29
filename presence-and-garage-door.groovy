@@ -64,4 +64,4 @@ preferences {
 }
 
 
-def instal
+def installed(
