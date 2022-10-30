@@ -64,4 +64,5 @@ preferences {
 }
 
 
-def installed(
+def installed() {
+	log.
