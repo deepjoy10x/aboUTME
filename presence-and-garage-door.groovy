@@ -65,4 +65,4 @@ preferences {
 
 
 def installed() {
-	log.
+	log.debug "Inst
