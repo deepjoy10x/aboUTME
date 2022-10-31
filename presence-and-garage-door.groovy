@@ -65,4 +65,4 @@ preferences {
 
 
 def installed() {
-	log.debug "Installed with sett
+	log.debug "Installed with settings: 
