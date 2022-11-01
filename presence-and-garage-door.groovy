@@ -69,3 +69,5 @@ def installed() {
 
 	initialize()
 }
+
+def up
