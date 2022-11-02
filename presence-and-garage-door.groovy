@@ -70,4 +70,5 @@ def installed() {
 	initialize()
 }
 
-def up
+def updated() {
+	
