@@ -71,4 +71,4 @@ def installed() {
 }
 
 def updated() {
-	log.de
+	log.debug "Up
