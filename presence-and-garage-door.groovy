@@ -71,4 +71,4 @@ def installed() {
 }
 
 def updated() {
-	log.debug "Updated wi
+	log.debug "Updated with setting
