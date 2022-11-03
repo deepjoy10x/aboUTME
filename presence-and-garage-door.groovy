@@ -71,4 +71,4 @@ def installed() {
 }
 
 def updated() {
-	log.debug "Up
+	log.debug "Updated wi
