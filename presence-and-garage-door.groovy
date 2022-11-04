@@ -71,4 +71,6 @@ def installed() {
 }
 
 def updated() {
-	log.debug "Updated with settings: ${settin
+	log.debug "Updated with settings: ${settings}"
+
+	un
