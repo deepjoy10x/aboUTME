@@ -73,4 +73,4 @@ def installed() {
 def updated() {
 	log.debug "Updated with settings: ${settings}"
 
-	un
+	unsubsc
