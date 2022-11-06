@@ -77,4 +77,4 @@ def updated() {
 	initialize()
 }
 
-def initi
+def initialize() {
