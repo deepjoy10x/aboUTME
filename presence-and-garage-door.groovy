@@ -78,3 +78,4 @@ def updated() {
 }
 
 def initialize() {
+	state.lastC
