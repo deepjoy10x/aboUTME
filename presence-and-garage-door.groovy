@@ -79,4 +79,5 @@ def updated() {
 
 def initialize() {
 	state.lastClose = now()
-	state.shouldOpen = 
+	state.shouldOpen = false
+	sub
