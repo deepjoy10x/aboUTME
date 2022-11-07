@@ -78,4 +78,5 @@ def updated() {
 }
 
 def initialize() {
-	state.lastClose 
+	state.lastClose = now()
+	st
