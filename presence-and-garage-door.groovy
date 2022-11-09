@@ -80,4 +80,4 @@ def updated() {
 def initialize() {
 	state.lastClose = now()
 	state.shouldOpen = false
-	subscribe(cars, "presen
+	subscribe(cars, "presence", presenceH
