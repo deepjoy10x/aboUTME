@@ -80,4 +80,5 @@ def updated() {
 def initialize() {
 	state.lastClose = now()
 	state.shouldOpen = false
-	subscribe(cars, "presence", presenceH
+	subscribe(cars, "presence", presenceHandler)
+	
