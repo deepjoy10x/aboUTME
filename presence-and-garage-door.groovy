@@ -81,4 +81,4 @@ def initialize() {
 	state.lastClose = now()
 	state.shouldOpen = false
 	subscribe(cars, "presence", presenceHandler)
-	
+	subscribe(d
