@@ -82,3 +82,4 @@ def initialize() {
 	state.shouldOpen = false
 	subscribe(cars, "presence", presenceHandler)
 	subscribe(door, "door", doorHandler)
+	if (contac
