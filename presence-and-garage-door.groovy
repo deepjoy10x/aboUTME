@@ -83,4 +83,4 @@ def initialize() {
 	subscribe(cars, "presence", presenceHandler)
 	subscribe(door, "door", doorHandler)
 	if (contact) {
-		subscribe(cont
+		subscribe(contact, "conta
