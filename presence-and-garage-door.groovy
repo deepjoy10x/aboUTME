@@ -83,4 +83,8 @@ def initialize() {
 	subscribe(cars, "presence", presenceHandler)
 	subscribe(door, "door", doorHandler)
 	if (contact) {
-		subscribe(contact, "contact", contactHandler
+		subscribe(contact, "contact", contactHandler)
+	}
+}
+
+d
