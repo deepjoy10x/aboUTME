@@ -87,4 +87,4 @@ def initialize() {
 	}
 }
 
-def door
+def doorHandle
