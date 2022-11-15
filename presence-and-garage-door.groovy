@@ -88,3 +88,4 @@ def initialize() {
 }
 
 def doorHandler(evt) {
+	log.
