@@ -88,4 +88,4 @@ def initialize() {
 }
 
 def doorHandler(evt) {
-	log.debug "doorHan
+	log.debug "doorHandler: $e
