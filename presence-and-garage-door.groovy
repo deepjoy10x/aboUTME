@@ -89,4 +89,4 @@ def initialize() {
 
 def doorHandler(evt) {
 	log.debug "doorHandler: $evt.value: $evt, $settings"
-	if ("
+	if ("closin
