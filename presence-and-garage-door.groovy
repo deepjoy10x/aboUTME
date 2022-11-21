@@ -90,4 +90,4 @@ def initialize() {
 def doorHandler(evt) {
 	log.debug "doorHandler: $evt.value: $evt, $settings"
 	if ("closing" == evt.value || "closed" == evt.value) {
-		st
+		state.l
