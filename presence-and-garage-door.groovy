@@ -94,4 +94,4 @@ def doorHandler(evt) {
 	}
 }
 
-def contactH
+def contactHandler(evt) 
