@@ -95,4 +95,4 @@ def doorHandler(evt) {
 }
 
 def contactHandler(evt) {
-	log.debug "c
+	log.debug "contactH
