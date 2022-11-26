@@ -95,4 +95,5 @@ def doorHandler(evt) {
 }
 
 def contactHandler(evt) {
-	log.debug "contactHandler: $evt.value: $evt, $setti
+	log.debug "contactHandler: $evt.value: $evt, $settings"
+	if ("clos
