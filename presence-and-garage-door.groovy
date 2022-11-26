@@ -95,4 +95,4 @@ def doorHandler(evt) {
 }
 
 def contactHandler(evt) {
-	log.debug "contactHandler: $evt.value: $ev
+	log.debug "contactHandler: $evt.value: $evt, $setti
