@@ -97,4 +97,4 @@ def doorHandler(evt) {
 def contactHandler(evt) {
 	log.debug "contactHandler: $evt.value: $evt, $settings"
 	if ("closed" == evt.value) {
-		state
+		state.lastClose =
