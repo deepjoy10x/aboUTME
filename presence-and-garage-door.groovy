@@ -101,4 +101,5 @@ def contactHandler(evt) {
 	}
 }
 
-def presenceHandler(evt
+def presenceHandler(evt) {
+	def
