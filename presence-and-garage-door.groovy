@@ -102,4 +102,4 @@ def contactHandler(evt) {
 }
 
 def presenceHandler(evt) {
-	def
+	def carName =
