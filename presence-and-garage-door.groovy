@@ -102,4 +102,5 @@ def contactHandler(evt) {
 }
 
 def presenceHandler(evt) {
-	def carName = evt.getDevice().displ
+	def carName = evt.getDevice().displayName
+	l
