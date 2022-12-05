@@ -104,4 +104,4 @@ def contactHandler(evt) {
 def presenceHandler(evt) {
 	def carName = evt.getDevice().displayName
 	log.debug "presenceHandler: $evt.value, $carName, $state, $settings"
-	def doorSt
+	def doorState = doo
