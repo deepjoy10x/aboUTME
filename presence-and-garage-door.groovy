@@ -106,4 +106,4 @@ def presenceHandler(evt) {
 	log.debug "presenceHandler: $evt.value, $carName, $state, $settings"
 	def doorState = door.latestValue("door")
 	log.debug "Current garage state: ${doorState}"
-	i
+	if ("prese
