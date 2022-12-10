@@ -107,4 +107,4 @@ def presenceHandler(evt) {
 	def doorState = door.latestValue("door")
 	log.debug "Current garage state: ${doorState}"
 	if ("present" == evt.value) {
-		
+		if (state.s
