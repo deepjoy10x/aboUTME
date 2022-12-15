@@ -109,4 +109,5 @@ def presenceHandler(evt) {
 	if ("present" == evt.value) {
 		if (state.shouldOpen) {
 			def msg = "Opening ${door.displayName} because $carName is home."
-			log.debug "${m
+			log.debug "${msg}"
+			
