@@ -110,4 +110,5 @@ def presenceHandler(evt) {
 		if (state.shouldOpen) {
 			def msg = "Opening ${door.displayName} because $carName is home."
 			log.debug "${msg}"
-			sendPus
+			sendPush(msg)
+			door.open()
