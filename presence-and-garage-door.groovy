@@ -112,4 +112,5 @@ def presenceHandler(evt) {
 			log.debug "${msg}"
 			sendPush(msg)
 			door.open()
-		} el
+		} else {
+	
