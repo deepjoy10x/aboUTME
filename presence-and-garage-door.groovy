@@ -113,4 +113,4 @@ def presenceHandler(evt) {
 			sendPush(msg)
 			door.open()
 		} else {
-			def msg = "NOT auto openin
+			def msg = "NOT auto opening ${door.
