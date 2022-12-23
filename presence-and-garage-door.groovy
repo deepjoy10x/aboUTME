@@ -115,4 +115,4 @@ def presenceHandler(evt) {
 		} else {
 			def msg = "NOT auto opening ${door.displayName} as we didn't auto close it earlier"
 			log.debug "${msg}"
-		
+			if (ph
