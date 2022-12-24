@@ -116,4 +116,6 @@ def presenceHandler(evt) {
 			def msg = "NOT auto opening ${door.displayName} as we didn't auto close it earlier"
 			log.debug "${msg}"
 			if (phone) {
-				sendSms(phone, ms
+				sendSms(phone, msg)
+			}
+	
