@@ -119,4 +119,5 @@ def presenceHandler(evt) {
 				sendSms(phone, msg)
 			}
 		}
-	} else if ("not present" == ev
+	} else if ("not present" == evt.value) {
+		de
