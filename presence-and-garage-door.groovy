@@ -120,4 +120,4 @@ def presenceHandler(evt) {
 			}
 		}
 	} else if ("not present" == evt.value) {
-		def shouldC
+		def shouldClose = 
