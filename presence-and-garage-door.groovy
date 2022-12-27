@@ -121,4 +121,4 @@ def presenceHandler(evt) {
 		}
 	} else if ("not present" == evt.value) {
 		def shouldClose = true
-		de
+		def now = no
