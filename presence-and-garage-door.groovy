@@ -122,4 +122,5 @@ def presenceHandler(evt) {
 	} else if ("not present" == evt.value) {
 		def shouldClose = true
 		def now = now()
-		def elapsed = now - state.lastClos
+		def elapsed = now - state.lastClose
+		if (secon
