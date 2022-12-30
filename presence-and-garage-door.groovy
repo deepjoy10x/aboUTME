@@ -123,4 +123,4 @@ def presenceHandler(evt) {
 		def shouldClose = true
 		def now = now()
 		def elapsed = now - state.lastClose
-		if (secon
+		if (seconds) {
