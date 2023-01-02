@@ -124,4 +124,5 @@ def presenceHandler(evt) {
 		def now = now()
 		def elapsed = now - state.lastClose
 		if (seconds) {
-			def milliSec = seconds * 10
+			def milliSec = seconds * 1000
+			sho
