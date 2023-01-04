@@ -127,4 +127,4 @@ def presenceHandler(evt) {
 			def milliSec = seconds * 1000
 			shouldClose = ("closed" != doorState) || (milliSec > elapsed)
 		}
-		state.shouldOpen 
+		state.shouldOpen = shouldCl
