@@ -129,4 +129,4 @@ def presenceHandler(evt) {
 		}
 		state.shouldOpen = shouldClose
 		if (shouldClose) {
-			log.debug "Closing 
+			log.debug "Closing at ${state.la
