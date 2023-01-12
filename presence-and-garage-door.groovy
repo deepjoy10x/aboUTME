@@ -130,4 +130,4 @@ def presenceHandler(evt) {
 		state.shouldOpen = shouldClose
 		if (shouldClose) {
 			log.debug "Closing at ${state.lastClose}"
-			def msg = "Closing ${door.displayName} because $carName
+			def msg = "Closing ${door.displayName} because $carName is lea
