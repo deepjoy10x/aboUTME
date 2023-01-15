@@ -132,4 +132,4 @@ def presenceHandler(evt) {
 			log.debug "Closing at ${state.lastClose}"
 			def msg = "Closing ${door.displayName} because $carName is leaving."
 			log.debug "${msg}"
-			sen
+			sendPush(msg)
