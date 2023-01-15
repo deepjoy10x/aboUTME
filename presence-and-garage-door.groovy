@@ -133,4 +133,5 @@ def presenceHandler(evt) {
 			def msg = "Closing ${door.displayName} because $carName is leaving."
 			log.debug "${msg}"
 			sendPush(msg)
-			door.close(
+			door.close()
+		}
