@@ -135,4 +135,4 @@ def presenceHandler(evt) {
 			sendPush(msg)
 			door.close()
 		} else {
-			def sec = ela
+			def sec = elapsed / 100
