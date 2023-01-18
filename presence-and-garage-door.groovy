@@ -136,4 +136,4 @@ def presenceHandler(evt) {
 			door.close()
 		} else {
 			def sec = elapsed / 1000
-			def 
+			def msg = "NOT 
