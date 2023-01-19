@@ -136,4 +136,4 @@ def presenceHandler(evt) {
 			door.close()
 		} else {
 			def sec = elapsed / 1000
-			def msg = "NOT auto closing as $
+			def msg = "NOT auto closing as ${door.d
