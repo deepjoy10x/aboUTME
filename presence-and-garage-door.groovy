@@ -138,4 +138,4 @@ def presenceHandler(evt) {
 			def sec = elapsed / 1000
 			def msg = "NOT auto closing as ${door.displayName} was ${doorState} and last closing was ${sec}s ago"
 			log.debug "${msg}"
-			if (phon
+			if (phone) {
