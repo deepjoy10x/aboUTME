@@ -142,3 +142,5 @@ def presenceHandler(evt) {
 				sendSms(phone, msg)
 			}
 		}
+	}
+}
